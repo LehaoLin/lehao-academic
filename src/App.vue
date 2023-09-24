@@ -1,13 +1,20 @@
 <template>
   <div class="common-layout">
     <!-- <el-header>Header</el-header> -->
-    <el-container>
-      <el-aside width="30vw"
-        ><Abstract /> <el-divider direction="vertical"
+    <el-container v-if="!isMobile">
+      <el-aside width="30vw" class="float-aside"
+        ><Abstract /> <el-divider class="vertical-divider" direction="vertical"
       /></el-aside>
 
-      <el-main>
+      <el-main class="float-main">
         <el-scrollbar> <Education /> <Teaching /> </el-scrollbar>
+      </el-main>
+    </el-container>
+    <el-container v-if="isMobile">
+      <el-main>
+        <Abstract />
+        <el-divider />
+        <Education /> <Teaching />
       </el-main>
     </el-container>
   </div>
@@ -17,6 +24,16 @@
 import Education from "./components/Education.vue";
 import Abstract from "./components/Abstract.vue";
 import Teaching from "./components/Teaching.vue";
+
+import { onMounted, ref } from "vue";
+
+const isMobile = ref(false);
+
+onMounted(() => {
+  if (window.innerWidth <= 768) {
+    isMobile.value = true;
+  }
+});
 </script>
 
 <style scoped>
@@ -32,7 +49,7 @@ import Teaching from "./components/Teaching.vue";
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 } */
-.el-aside {
+.float-aside {
   height: 100vh;
   justify-content: center; /* Horizontally center the child */
   align-items: center; /* Vertically center the child (optional) */
@@ -41,10 +58,10 @@ import Teaching from "./components/Teaching.vue";
   position: fixed;
 }
 
-.el-main {
+.float-main {
   margin-left: 30vw;
 }
-.el-divider {
+.vertical-divider {
   height: 100vh;
 }
 </style>

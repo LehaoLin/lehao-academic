@@ -6,6 +6,10 @@
         <el-row>
           <el-col :span="18">
             <h3>Ph.D. Student in Computer and Information Engineering</h3>
+            <el-text size="large"
+              >Ph.D. Student in Computer and Information Engineering</el-text
+            >
+
             <h3>2021 - Present</h3>
             <h3>The Chinese University of Hong Kong, Shenzhen, China</h3>
             <h3>
@@ -23,7 +27,7 @@
               :src="phd_logo"
               :zoom-rate="1.2"
               :preview-src-list="srcList"
-              fit="cover"
+              fit="contain"
             />
           </el-col>
         </el-row>
@@ -51,7 +55,7 @@
               :src="phd_logo"
               :zoom-rate="1.2"
               :preview-src-list="srcList"
-              fit="cover"
+              fit="contain"
             />
           </el-col>
         </el-row>
