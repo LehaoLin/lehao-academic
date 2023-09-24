@@ -108,6 +108,25 @@
         >&nbsp;&nbsp;Deep Learning</el-link
       >
     </el-row>
+
+    <br />
+    <el-row justify="center">
+      <el-text size="large">Webs for self-use</el-text></el-row
+    >
+    <el-row justify="center">
+      <el-col :span="12"
+        ><el-link class="bio" href="https://ccfddl.github.io/" target="_blank"
+          >CCF-DDLs</el-link
+        ></el-col
+      ><el-col :span="12"
+        ><el-link
+          class="bio"
+          href="https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+          target="_blank"
+          >CCF-Ranks</el-link
+        ></el-col
+      >
+    </el-row>
   </div>
 </template>
 
