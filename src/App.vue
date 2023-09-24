@@ -7,14 +7,14 @@
       /></el-aside>
 
       <el-main class="float-main">
-        <el-scrollbar> <Education /> <Teaching /> </el-scrollbar>
+        <el-scrollbar> <Education /> <Services /> <Teaching /> </el-scrollbar>
       </el-main>
     </el-container>
     <el-container v-if="isMobile">
       <el-main>
         <Abstract />
         <el-divider />
-        <Education /> <Teaching />
+        <Education /> <Services /> <Teaching />
       </el-main>
     </el-container>
   </div>
@@ -24,6 +24,7 @@
 import Education from "./components/Education.vue";
 import Abstract from "./components/Abstract.vue";
 import Teaching from "./components/Teaching.vue";
+import Services from "./components/Services.vue";
 
 import { onMounted, ref } from "vue";
 
