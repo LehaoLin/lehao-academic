@@ -152,4 +152,8 @@ onMounted(() => {
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+.el-card:hover {
+  box-shadow: rgba(255, 255, 255, 0.56) 0px 0px 40px 4px;
+}
+</style>

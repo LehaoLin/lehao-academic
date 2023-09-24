@@ -14,8 +14,21 @@
       ></el-row
     >
     <el-row justify="center">
-      <el-text size="default" class="bio"
-        >The Chinese University of Hong Kong, Shenzhen, China</el-text
+      <el-link
+        size="default"
+        class="bio"
+        href="https://sse.cuhk.edu.cn/"
+        target="_blank"
+        >School of Science and Engineering</el-link
+      ></el-row
+    >
+    <el-row justify="center">
+      <el-link
+        size="default"
+        class="bio"
+        href="https://cuhk.edu.cn/"
+        target="_blank"
+        >The Chinese University of Hong Kong, Shenzhen, China</el-link
       ></el-row
     >
     <el-row justify="center">
@@ -73,23 +86,23 @@
     <el-row justify="center">
       <el-text size="large">Research Topics</el-text></el-row
     >
-    <el-row>
+    <el-row class="rotate">
       <el-icon :size="25"><Icon icon="mdi:multimedia" /></el-icon
       ><el-link class="bio" :underline="false">&nbsp;&nbsp;Multimedia</el-link>
     </el-row>
-    <el-row>
+    <el-row class="rotate">
       <el-icon :size="25"><Icon icon="eos-icons:blockchain" /></el-icon
       ><el-link class="bio" :underline="false"
         >&nbsp;&nbsp;Blockchain/Web3</el-link
       >
     </el-row>
-    <el-row>
+    <el-row class="rotate">
       <el-icon :size="25"><Icon icon="grommet-icons:system" /></el-icon
       ><el-link class="bio" :underline="false"
         >&nbsp;&nbsp;Decentralized Systems</el-link
       >
     </el-row>
-    <el-row>
+    <el-row class="rotate">
       <el-icon :size="25"><Icon icon="eos-icons:neural-network" /></el-icon
       ><el-link class="bio" :underline="false"
         >&nbsp;&nbsp;Deep Learning</el-link
@@ -130,5 +143,35 @@ import { Icon } from "@iconify/vue";
   width: 100%;
   align-items: center; /* Vertically center items */
   white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.el-avatar:hover {
+  animation: rotate 0.1s linear infinite;
+}
+
+.rotate:hover {
+  animation: rotate 0.1s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) scale(1);
+    /* transform-origin: 70% 100%; */
+  }
+
+  25% {
+    transform: rotate(5deg) scale(1);
+    /* transform-origin: 70% 100%; */
+  }
+
+  75% {
+    transform: rotate(-5deg) scale(1);
+    /* transform-origin: 70% 100%; */
+  }
+
+  100% {
+    transform: rotate(0deg) scale(1);
+    /* transform-origin: 70% 100%; */
+  }
 }
 </style>
