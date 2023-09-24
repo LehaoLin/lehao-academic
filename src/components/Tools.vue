@@ -2,8 +2,8 @@
   <h1>Prefered Tools</h1>
   <el-card>
     <el-row justify="start">
-      <el-col :span="3">Writing</el-col>
-      <el-col :span="21"
+      <el-col :span="4">Writing</el-col>
+      <el-col :span="20"
         ><el-icon :size="30"><Icon icon="skill-icons:latex-light" /></el-icon
         >&nbsp;<el-icon :size="30"
           ><Icon icon="teenyicons:markdown-solid" /></el-icon
@@ -11,8 +11,8 @@
     </el-row>
 
     <el-row justify="start">
-      <el-col :span="3">Coding</el-col>
-      <el-col :span="21"
+      <el-col :span="4">Coding</el-col>
+      <el-col :span="20"
         ><el-icon :size="30"><Icon icon="skill-icons:vscode-light" /></el-icon
         >&nbsp;<el-icon :size="30"><Icon icon="logos:prettier" /></el-icon
         >&nbsp;</el-col
@@ -20,8 +20,8 @@
     </el-row>
 
     <el-row justify="start">
-      <el-col :span="3">Client-side</el-col>
-      <el-col :span="21"
+      <el-col :span="4">Client-side</el-col>
+      <el-col :span="20"
         ><el-icon :size="30"><Icon icon="skill-icons:javascript" /></el-icon
         >&nbsp;<el-icon :size="30"><Icon icon="logos:vue" /></el-icon
         >&nbsp;<el-icon :size="30"><Icon icon="logos:pinia" /></el-icon
@@ -31,8 +31,8 @@
     </el-row>
 
     <el-row justify="start">
-      <el-col :span="3">Server-side</el-col>
-      <el-col :span="21"
+      <el-col :span="4">Server-side</el-col>
+      <el-col :span="20"
         ><el-icon :size="30"><Icon icon="logos:nodejs-icon-alt" /></el-icon
         >&nbsp;<el-icon :size="30"
           ><Icon icon="devicon:mongodb-wordmark" /></el-icon
@@ -43,15 +43,15 @@
     </el-row>
 
     <el-row justify="start">
-      <el-col :span="3">Deep Learning</el-col>
-      <el-col :span="21"
+      <el-col :span="4">Deep Learning</el-col>
+      <el-col :span="20"
         ><el-icon :size="30"><Icon icon="skill-icons:pytorch-light" /></el-icon
       ></el-col>
     </el-row>
 
     <el-row justify="start">
-      <el-col :span="3">Blockchain</el-col>
-      <el-col :span="21"
+      <el-col :span="4">Blockchain</el-col>
+      <el-col :span="20"
         ><el-icon :size="30"><Icon icon="logos:solidity" /></el-icon
       ></el-col>
     </el-row>
