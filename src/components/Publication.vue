@@ -39,6 +39,7 @@
   }
   100% {
     transform: scale(1.02);
+    color: #9d5b8b;
   }
 }
 </style>
