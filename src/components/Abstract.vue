@@ -49,22 +49,22 @@
     </el-row>
     <el-row>
       <el-icon :size="25"><Icon icon="academicons:google-scholar" /></el-icon
-      ><el-link
+      >&nbsp;&nbsp;<el-link
         size="default"
         class="bio"
         href="https://scholar.google.com/citations?user=6R_CMZ4AAAAJ&hl=en"
         target="_blank"
-        >&nbsp;&nbsp;Lehao Lin</el-link
+        >Lehao Lin</el-link
       >
     </el-row>
     <el-row>
       <el-icon :size="25"><Icon icon="ant-design:github-filled" /></el-icon
-      ><el-link
+      >&nbsp;&nbsp;<el-link
         size="default"
         class="bio"
         href="https://github.com/LehaoLin"
         target="_blank"
-        >&nbsp;&nbsp;LehaoLin</el-link
+        >LehaoLin</el-link
       >
     </el-row>
 
@@ -128,5 +128,7 @@ import { Icon } from "@iconify/vue";
 }
 .el-row {
   width: 100%;
+  align-items: center; /* Vertically center items */
+  white-space: nowrap; /* Prevent text from wrapping */
 }
 </style>
