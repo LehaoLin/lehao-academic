@@ -46,7 +46,7 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
-import * as dayjs from "dayjs";
+import dayjs from "dayjs";
 
 const now_date = ref();
 

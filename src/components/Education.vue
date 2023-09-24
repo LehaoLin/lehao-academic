@@ -63,7 +63,7 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
-import * as dayjs from "dayjs";
+import dayjs from "dayjs";
 import phd_logo from "@/assets/cuhksz-logo.png";
 
 const now_date = ref();
