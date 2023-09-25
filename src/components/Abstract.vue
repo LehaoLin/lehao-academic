@@ -170,6 +170,7 @@ onMounted(() => {
 .name {
   font-size: 20px;
   color: white;
+  height: 30px;
 }
 .bio {
   white-space: nowrap;
