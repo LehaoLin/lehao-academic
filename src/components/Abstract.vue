@@ -4,10 +4,11 @@
       <el-avatar :size="150" :src="Avatar" />
     </el-row>
     <el-row justify="center">
-      <el-text size="large" class="name">Lehao Lin</el-text></el-row
-    >
+      <el-text size="large" class="name" id="typing-name"></el-text
+    ></el-row>
+
     <el-row justify="center">
-      <el-text size="small">Ph.D. Student</el-text></el-row
+      <el-text size="small" id="typing">Ph.D. Student</el-text></el-row
     ><el-row justify="center">
       <el-text size="default" class="bio"
         >Computer and Information Engineering</el-text
@@ -131,10 +132,29 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 import Avatar from "@/assets/avatar.jpg";
 // import Github from "@/assets/github-filled.svg";
 import { Icon } from "@iconify/vue";
+
+import Typed from "typed.js";
+
+onMounted(() => {
+  //   new Typed("#typing", {
+  //     strings: ["Ph.D. Student", "Rap with paper and code"],
+  //     typeSpeed: 100,
+  //     backSpeed: 50,
+  //     loop: true,
+  //     smartBackspace: true,
+  //   });
+  new Typed("#typing-name", {
+    strings: ["Lehao Lin", "林乐昊"],
+    typeSpeed: 100,
+    startDelay: 50,
+    backSpeed: 50,
+    loop: true,
+  });
+});
 </script>
 
 <style scoped>
