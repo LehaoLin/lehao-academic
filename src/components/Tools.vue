@@ -27,6 +27,8 @@
         >&nbsp;<el-icon :size="30"><Icon icon="logos:pinia" /></el-icon
         >&nbsp;<el-icon :size="30"><Icon icon="devicon:vitejs" /></el-icon
         >&nbsp;<el-icon :size="30"><Icon icon="skill-icons:electron" /></el-icon
+        >&nbsp;<el-icon :size="30"><Icon icon="logos:babel" /></el-icon
+        >&nbsp;<el-icon :size="30"><Icon icon="logos:swc" /></el-icon
       ></el-col>
     </el-row>
 
