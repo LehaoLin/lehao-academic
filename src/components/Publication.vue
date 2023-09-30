@@ -35,10 +35,10 @@
 }
 @keyframes enlarge {
   0% {
-    transform: scale(1);
+    /* transform: scale(1); */
   }
   100% {
-    transform: scale(1.02);
+    /* transform: scale(1.02); */
     color: #9d5b8b;
   }
 }

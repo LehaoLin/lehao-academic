@@ -8,7 +8,7 @@
 
       <el-main class="float-main">
         <el-scrollbar>
-          <News /><Publication /><Education /><Tools /> <Services />
+          <Bio /> <News /><Publication /><Education /><Tools /> <Services />
           <Teaching />
         </el-scrollbar>
       </el-main>
@@ -18,7 +18,8 @@
       <el-main>
         <Abstract />
         <el-divider />
-        <News /><Publication /><Education /><Tools /> <Services /> <Teaching />
+        <Bio /><News /><Publication /><Education /><Tools /> <Services />
+        <Teaching />
       </el-main>
     </el-container>
   </div>
@@ -32,6 +33,7 @@ import Services from "./components/Services.vue";
 import Tools from "./components/Tools.vue";
 import Publication from "./components/Publication.vue";
 import News from "./components/News.vue";
+import Bio from "./components/Bio.vue";
 
 import { onMounted, ref } from "vue";
 
