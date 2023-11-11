@@ -1,7 +1,17 @@
 <template>
   <div class="abstract">
     <el-row justify="center">
-      <el-avatar :size="150" :src="AvatarGif" />
+      <el-avatar :size="150" :src="AvatarGif" v-if="!recent" />
+      <el-avatar :size="150" :src="Recent" v-if="recent" />
+    </el-row>
+
+    <el-row justify="center">
+      <el-switch
+        v-model="recent"
+        size="small"
+        active-text="Recent"
+        inactive-text="Childhood"
+      />
     </el-row>
     <el-row justify="center">
       <el-text size="large" class="name" id="typing-name"></el-text
@@ -133,13 +143,15 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
-import Avatar from "@/assets/avatar.jpg";
+import Recent from "@/assets/recent.jpg";
 // import Github from "@/assets/github-filled.svg";
 import { Icon } from "@iconify/vue";
 
 import AvatarGif from "@/assets/avatar_animation.gif";
 
 import Typed from "typed.js";
+
+const recent = ref(false);
 
 onMounted(() => {
   //   new Typed("#typing", {
