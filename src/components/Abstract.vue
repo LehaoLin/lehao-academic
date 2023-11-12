@@ -125,16 +125,21 @@
       <el-text size="large">Webs for self-use</el-text></el-row
     >
     <el-row justify="center">
-      <el-col :span="12"
+      <el-col :span="8"
         ><el-link class="bio" href="https://ccfddl.github.io/" target="_blank"
           >CCF-DDLs</el-link
         ></el-col
-      ><el-col :span="12"
+      ><el-col :span="8"
         ><el-link
           class="bio"
           href="https://www.ccf.org.cn/Academic_Evaluation/By_category/"
           target="_blank"
           >CCF-Ranks</el-link
+        ></el-col
+      >
+      <el-col :span="8"
+        ><el-link class="bio" href="https://www.lgurank.com" target="_blank"
+          >LGURANK</el-link
         ></el-col
       >
     </el-row>
