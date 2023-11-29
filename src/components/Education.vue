@@ -33,7 +33,7 @@
       <el-card>
         <el-row>
           <el-col :span="18">
-            <h3>B.Sc. in Computer Science</h3>
+            <h3>B.Eng. in Computer Science</h3>
             <h3>2016 - 2021</h3>
             <h3>The Chinese University of Hong Kong, Shenzhen, China</h3>
             <h3>
