@@ -78,7 +78,8 @@
       <el-card>
         <el-row>
           <el-text size="large"
-            >Teaching Assistant for CSC1002: Computational Laboratory</el-text
+            >Teaching Assistant for CSC1002: Computational Laboratory
+            (Python)</el-text
           >
         </el-row>
         <el-row>
