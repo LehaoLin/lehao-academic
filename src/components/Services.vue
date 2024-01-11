@@ -10,6 +10,12 @@
       <el-text size="large">Academic Journal and Magazine:</el-text>
     </el-row>
     <el-row>
+      <el-text size="default">
+        ACM Transactions on Multimedia Computing Communications and Applications
+        (TOMM)
+      </el-text>
+    </el-row>
+    <el-row>
       <el-text size="default"
         >IEEE Transactions on Cloud Computing (TCC)</el-text
       >
