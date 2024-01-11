@@ -1,7 +1,7 @@
 <template>
   <h1>Teaching</h1>
   <el-timeline>
-    <el-timeline-item :timestamp="now_date" placement="top">
+    <el-timeline-item timestamp="2023-12" placement="top">
       <el-card>
         <el-row>
           <el-text size="large"
