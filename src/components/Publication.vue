@@ -2,7 +2,14 @@
   <h1>Publication</h1>
 
   <el-card>
-    <span class="me">Lin, Lehao</span>, Haihan Duan, and Wei Cai. "Web3DP: A
+    Details see
+    <el-link
+      href="https://scholar.google.com/citations?user=6R_CMZ4AAAAJ&hl=en"
+      size="default"
+      target="_blank"
+      >Google Scholar</el-link
+    >
+    <!-- <span class="me">Lin, Lehao</span>, Haihan Duan, and Wei Cai. "Web3DP: A
     Crowdsourcing Platform for 3D Models Based on Web3 Infrastructure." In
     Proceedings of the 14th Conference on ACM Multimedia Systems, pp. 397-402.
     2023.
@@ -19,7 +26,7 @@
     Wang, Lin, <span class="me">Lehao Lin</span>, Xiao Wu, and Rongman Hong.
     "Seshat: Decentralizing Oral History Text Analysis." In 2021 17th
     International Conference on Mobility, Sensing and Networking (MSN), pp.
-    812-817. IEEE, 2021.
+    812-817. IEEE, 2021. -->
   </el-card>
 </template>
 
@@ -29,17 +36,17 @@
 .me {
   text-decoration: underline;
 }
-
+/* 
 .el-card:hover {
   animation: enlarge 0.1s linear forwards;
 }
 @keyframes enlarge {
   0% {
-    /* transform: scale(1); */
+    transform: scale(1);
   }
   100% {
-    /* transform: scale(1.02); */
+    transform: scale(1.02);
     color: #9d5b8b;
   }
-}
+} */
 </style>

@@ -64,11 +64,16 @@
 
     <el-row justify="center"> <el-text size="large">Links</el-text></el-row>
     <el-row>
-      <el-icon :size="25"><Message /></el-icon>&nbsp;&nbsp;<el-link
+      <!-- <el-icon :size="25"><Message /></el-icon>&nbsp;&nbsp;<el-link
         size="default"
         class="bio"
         href="mailto:lehaolin@link.cuhk.edu.cn"
         >lehaolin@link.cuhk.edu.cn</el-link
+      > -->
+      <el-icon :size="25"><Message /></el-icon>&nbsp;&nbsp;<el-link
+        size="default"
+        class="bio"
+        >lehaolin[at]link.cuhk.edu.cn</el-link
       >
     </el-row>
     <el-row>
@@ -137,11 +142,11 @@
           >CCF-Ranks</el-link
         ></el-col
       >
-      <el-col :span="8"
+      <!-- <el-col :span="8"
         ><el-link class="bio" href="https://www.lgurank.com" target="_blank"
           >LGURANK</el-link
         ></el-col
-      >
+      > -->
     </el-row>
   </div>
 </template>

@@ -19,7 +19,7 @@
           </el-col>
           <el-col :span="6">
             <el-image
-              style="width: 100%; height: 100%"
+              style="width: 70%; height: 100%"
               :src="phd_logo"
               :zoom-rate="1.2"
               :preview-src-list="srcList"
@@ -47,7 +47,7 @@
           </el-col>
           <el-col :span="6">
             <el-image
-              style="width: 100%; height: 100%"
+              style="width: 70%; height: 100%"
               :src="phd_logo"
               :zoom-rate="1.2"
               :preview-src-list="srcList"
