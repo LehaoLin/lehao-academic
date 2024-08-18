@@ -31,10 +31,6 @@
       <el-text size="large">Academic Conference:</el-text>
     </el-row>
     <el-row>
-      <el-text size="default">Chinese CHI 2023</el-text>
-    </el-row>
-
-    <el-row>
       <el-text size="default"
         >ACM International Workshop on Network and Operating System Support for
         Digital Audio and Video 2022, 2023, 2024 (NOSSDAV 2022, 2023,
