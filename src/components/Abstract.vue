@@ -18,7 +18,7 @@
     ></el-row>
 
     <el-row justify="center">
-      <el-text size="small" id="typing">Ph.D. Student</el-text></el-row
+      <el-text size="small" id="typing">Ph.D. Candidate</el-text></el-row
     ><el-row justify="center">
       <el-text size="default" class="bio"
         >Computer and Information Engineering</el-text
