@@ -1,6 +1,29 @@
 <template>
   <h1>Teaching</h1>
   <el-timeline>
+    <el-timeline-item timestamp="2024-9" placement="top">
+      <el-card>
+        <el-row>
+          <el-text size="large"
+            >Teaching Assistant for ECE3200: Video Games Design and
+            Development</el-text
+          >
+        </el-row>
+        <el-row>
+          <el-text size="default"
+            >School of Science and Engineering, The Chinese Univeristy of Hong
+            Kong, Shenzhen</el-text
+          >
+        </el-row>
+        <el-row>
+          <el-text size="default">Instructor: Prof. Yuhua Jin</el-text>
+        </el-row>
+      </el-card>
+    </el-timeline-item>
+    <el-timeline-item timestamp="2024-12" placement="top"> </el-timeline-item>
+  </el-timeline>
+
+  <el-timeline>
     <el-timeline-item timestamp="2023-12" placement="top">
       <el-card>
         <el-row>
