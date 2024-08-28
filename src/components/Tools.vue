@@ -41,6 +41,7 @@
         >&nbsp;<el-icon :size="30"><Icon icon="logos:python" /></el-icon
         >&nbsp;<el-icon :size="30"><Icon icon="skill-icons:django" /></el-icon
         >&nbsp;<el-icon :size="30"><Icon icon="logos:nginx" /></el-icon
+        >&nbsp;<el-icon :size="30"><Icon icon="skill-icons:fastapi" /></el-icon
       ></el-col>
     </el-row>
 
