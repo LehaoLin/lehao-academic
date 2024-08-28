@@ -1,7 +1,7 @@
 <template>
   <h1>Teaching</h1>
   <el-timeline>
-    <el-timeline-item timestamp="2024-9" placement="top">
+    <el-timeline-item timestamp="2024-12" placement="top">
       <el-card>
         <el-row>
           <el-text size="large"
@@ -20,7 +20,7 @@
         </el-row>
       </el-card>
     </el-timeline-item>
-    <el-timeline-item timestamp="2024-12" placement="top"> </el-timeline-item>
+    <el-timeline-item timestamp="2024-9" placement="top"> </el-timeline-item>
   </el-timeline>
 
   <el-timeline>
