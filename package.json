@@ -10,8 +10,11 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
+    "@vueuse/components": "^11.0.3",
+    "@vueuse/core": "^11.0.3",
     "dayjs": "^1.11.10",
-    "element-plus": "^2.3.14",
+    "element-plus": "^2.8.2",
+    "pinia": "^2.2.2",
     "typed.js": "^2.0.16",
     "vue": "^3.3.4"
   },

@@ -17,13 +17,13 @@
     </el-row>
     <el-row>
       <el-text size="default"
-        >IEEE Transactions on Cloud Computing (TCC)</el-text
-      >
+        >IEEE Transactions on Computational Social Systems (TCSS)
+      </el-text>
     </el-row>
     <el-row>
       <el-text size="default"
-        >IEEE Transactions on Computational Social Systems (TCSS)
-      </el-text>
+        >IEEE Transactions on Cloud Computing (TCC)</el-text
+      >
     </el-row>
 
     <br />

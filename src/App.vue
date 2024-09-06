@@ -7,9 +7,29 @@
       /></el-aside>
 
       <el-main class="float-main">
-        <el-scrollbar>
-          <Bio /> <News /><Publication /><Education /><Tools /> <Services />
-          <Teaching />
+        <el-scrollbar ref="el">
+          <!-- <Navbar /> -->
+          <div v-element-visibility="onBioVis" id="Bio">
+            <Bio />
+          </div>
+          <div v-element-visibility="onNewsVis" id="News">
+            <News />
+          </div>
+          <div v-element-visibility="onPubVis" id="Publication">
+            <Publication />
+          </div>
+          <div v-element-visibility="onEduVis" id="Education">
+            <Education />
+          </div>
+          <div v-element-visibility="onToolVis" id="Tools">
+            <Tools />
+          </div>
+          <div v-element-visibility="onServicesVis" id="Services">
+            <Services />
+          </div>
+          <div v-element-visibility="onTeachingVis" id="Teaching">
+            <Teaching />
+          </div>
         </el-scrollbar>
       </el-main>
     </el-container>
@@ -18,12 +38,19 @@
       <el-main>
         <Abstract />
         <el-divider />
-        <Bio /><News /><Publication /><Education /><Tools /> <Services />
+        <Navbar />
+        <Bio />
+        <News />
+        <Publication />
+        <Education />
+        <Tools />
+        <Services />
         <Teaching />
       </el-main>
     </el-container>
   </div>
 </template>
+
 <script setup>
 // import HelloWorld from "./components/HelloWorld.vue";
 import Education from "./components/Education.vue";
@@ -34,8 +61,52 @@ import Tools from "./components/Tools.vue";
 import Publication from "./components/Publication.vue";
 import News from "./components/News.vue";
 import Bio from "./components/Bio.vue";
+// import Navbar from "./components/Navbar.vue";
 
-import { onMounted, ref } from "vue";
+import { watch, toRefs } from "vue";
+
+import { vElementVisibility } from "@vueuse/components";
+import { useScroll } from "@vueuse/core";
+
+import { onMounted, ref, computed } from "vue";
+
+import { useStore } from "./store/index.js";
+const store = useStore();
+
+const el = ref(null);
+
+// const smooth = ref(false);
+// const behavior = computed(() => (smooth.value ? "smooth" : "auto"));
+// const { x, y, isScrolling, arrivedState, directions } = useScroll(el, {
+//   behavior,
+// });
+// const { left, right, top, bottom } = toRefs(arrivedState);
+
+// watch(bottom, () => {
+//   store.bottom_arrived = bottom.value;
+// });
+
+const onBioVis = (state) => {
+  store.bio_visible = state;
+};
+const onNewsVis = (state) => {
+  store.news_visible = state;
+};
+const onPubVis = (state) => {
+  store.publication_visible = state;
+};
+const onEduVis = (state) => {
+  store.education_visible = state;
+};
+const onToolVis = (state) => {
+  store.tools_visible = state;
+};
+const onServicesVis = (state) => {
+  store.services_visible = state;
+};
+const onTeachingVis = (state) => {
+  store.teaching_visible = state;
+};
 
 const isMobile = ref(false);
 
@@ -43,6 +114,7 @@ onMounted(() => {
   if (window.innerWidth <= 768) {
     isMobile.value = true;
   }
+  console.log(isMobile.value);
 });
 </script>
 
@@ -73,5 +145,9 @@ onMounted(() => {
 }
 .vertical-divider {
   height: 100vh;
+}
+.el-scrollbar {
+  overflow: visible;
+  position: absolute;
 }
 </style>
