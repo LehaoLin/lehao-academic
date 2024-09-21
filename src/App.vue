@@ -21,6 +21,9 @@
           <div v-element-visibility="onEduVis" id="Education">
             <Education />
           </div>
+          <div v-element-visibility="onAwards" id="Awards">
+            <Awards />
+          </div>
           <div v-element-visibility="onToolVis" id="Tools">
             <Tools />
           </div>
@@ -43,6 +46,7 @@
         <News />
         <Publication />
         <Education />
+        <Awards />
         <Tools />
         <Services />
         <Teaching />
@@ -62,6 +66,7 @@ import Publication from "./components/Publication.vue";
 import News from "./components/News.vue";
 import Bio from "./components/Bio.vue";
 // import Navbar from "./components/Navbar.vue";
+import Awards from "./components/Awards.vue";
 
 import { watch, toRefs } from "vue";
 
@@ -106,6 +111,9 @@ const onServicesVis = (state) => {
 };
 const onTeachingVis = (state) => {
   store.teaching_visible = state;
+};
+const onAwards = (state) => {
+  store.awards_visible = state;
 };
 
 const isMobile = ref(false);
