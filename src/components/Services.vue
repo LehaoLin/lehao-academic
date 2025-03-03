@@ -32,6 +32,17 @@
     </el-row>
     <el-row>
       <el-text size="default"
+        >IEEE International Conference on Multimedia & Expo 2025 (ICME
+        2025)</el-text
+      >
+    </el-row>
+    <el-row>
+      <el-text size="default"
+        >ACM on Web Conference 2025 (TheWebConf/WWW 2025)</el-text
+      >
+    </el-row>
+    <el-row>
+      <el-text size="default"
         >ACM International Workshop on Network and Operating System Support for
         Digital Audio and Video 2022, 2023, 2024 (NOSSDAV 2022, 2023,
         2024)</el-text
@@ -45,7 +56,8 @@
     </el-row>
     <el-row>
       <el-text size="default"
-        >ACM Conference on Human Factors in Computing Systems 2024 (CHI 2024)
+        >ACM Conference on Human Factors in Computing Systems 2024, 2025 (CHI
+        2024, 2025)
       </el-text>
     </el-row>
     <el-row>

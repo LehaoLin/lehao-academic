@@ -2,6 +2,12 @@
   <h1>News</h1>
 
   <el-timeline>
+    <el-timeline-item center timestamp="2025-2" placement="top">
+      One paper was accepted by ACM CHI'25 Late Breaking Work (LBW).
+    </el-timeline-item>
+    <el-timeline-item center timestamp="2025-1" placement="top">
+      One paper was accepted by ACM CHI'25.
+    </el-timeline-item>
     <el-timeline-item center timestamp="2024-8" placement="top">
       Become a Ph.D. candidate.
     </el-timeline-item>

@@ -1,5 +1,29 @@
 <template>
   <h1>Teaching</h1>
+
+  <el-timeline>
+    <el-timeline-item timestamp="2025-5" placement="top">
+      <el-card>
+        <el-row>
+          <el-text size="large"
+            >Teaching Assistant for ECE4300: System Design in Human-Computer
+            Interaction</el-text
+          >
+        </el-row>
+        <el-row>
+          <el-text size="default"
+            >School of Science and Engineering, The Chinese Univeristy of Hong
+            Kong, Shenzhen</el-text
+          >
+        </el-row>
+        <el-row>
+          <el-text size="default">Instructor: Prof. Yuhua Jin</el-text>
+        </el-row>
+      </el-card>
+    </el-timeline-item>
+    <el-timeline-item timestamp="2025-1" placement="top"> </el-timeline-item>
+  </el-timeline>
+
   <el-timeline>
     <el-timeline-item timestamp="2024-12" placement="top">
       <el-card>
