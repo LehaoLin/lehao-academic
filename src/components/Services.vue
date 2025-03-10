@@ -44,8 +44,8 @@
     <el-row>
       <el-text size="default"
         >ACM International Workshop on Network and Operating System Support for
-        Digital Audio and Video 2022, 2023, 2024 (NOSSDAV 2022, 2023,
-        2024)</el-text
+        Digital Audio and Video 2022, 2023, 2024, 2025 (NOSSDAV 2022, 2023,
+        2024, 2025)</el-text
       >
     </el-row>
     <el-row>
