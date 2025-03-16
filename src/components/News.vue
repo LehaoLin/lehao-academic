@@ -23,38 +23,40 @@
     </el-timeline-item>
   </el-timeline> -->
 
-  <el-timeline>
-    <el-scrollbar height="20vh" always>
-      <el-timeline-item
-        v-for="item in news.slice(0, 6)"
-        v-if="expand == false"
-        center
-        :timestamp="item.timestamp"
-        placement="top"
-      >
-        {{ item.content }}
-      </el-timeline-item>
-
-      <el-timeline-item
-        v-if="expand == true"
-        v-for="item in news"
-        center
-        :timestamp="item.timestamp"
-        placement="top"
-      >
-        {{ item.content }}
-      </el-timeline-item>
-
-      <el-timeline-item v-if="news.length > 6">
-        <el-link v-if="expand == false" type="primary" @click="show_more()"
-          >Show More</el-link
+  <el-card>
+    <el-timeline>
+      <el-scrollbar height="20vh" always>
+        <el-timeline-item
+          v-for="item in news.slice(0, 6)"
+          v-if="expand == false"
+          center
+          :timestamp="item.timestamp"
+          placement="top"
         >
-        <el-link v-if="expand == true" type="primary" @click="show_less()"
-          >Show Less</el-link
+          {{ item.content }}
+        </el-timeline-item>
+
+        <el-timeline-item
+          v-if="expand == true"
+          v-for="item in news"
+          center
+          :timestamp="item.timestamp"
+          placement="top"
         >
-      </el-timeline-item>
-    </el-scrollbar>
-  </el-timeline>
+          {{ item.content }}
+        </el-timeline-item>
+
+        <el-timeline-item v-if="news.length > 6">
+          <el-link v-if="expand == false" type="primary" @click="show_more()"
+            >Show More</el-link
+          >
+          <el-link v-if="expand == true" type="primary" @click="show_less()"
+            >Show Less</el-link
+          >
+        </el-timeline-item>
+      </el-scrollbar>
+    </el-timeline>
+  </el-card>
 </template>
 
 <script setup>
