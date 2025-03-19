@@ -2,13 +2,22 @@
   <h1>Publication</h1>
 
   <el-card>
-    Details see
-    <el-link
-      href="https://scholar.google.com/citations?user=6R_CMZ4AAAAJ&hl=en"
-      size="default"
-      target="_blank"
-      >Google Scholar</el-link
-    >
+    <div>
+      Details see
+      <el-link
+        href="https://scholar.google.com/citations?user=6R_CMZ4AAAAJ&hl=en"
+        size="default"
+        target="_blank"
+        >Google Scholar</el-link
+      >
+    </div>
+    <!-- <div>(* Equal Contribution)</div>
+    <h2>2022</h2>
+    <div>{{ bibs.at(-2) }}</div>
+    <h2>2021</h2>
+    <div>
+      {{ bibs.at(-1) }}
+    </div> -->
     <!-- <span class="me">Lin, Lehao</span>, Haihan Duan, and Wei Cai. "Web3DP: A
     Crowdsourcing Platform for 3D Models Based on Web3 Infrastructure." In
     Proceedings of the 14th Conference on ACM Multimedia Systems, pp. 397-402.
@@ -30,7 +39,16 @@
   </el-card>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+
+const bibs = ref([
+  "Haihan Duan, Junhua Liao, Lehao Lin, Wei Cai. FLAD: A Human-centered Video Content Flaw Detection System for Meeting Recordings. In the 32nd Workshop on Network and Operating System Support for Digital Audio and Video (NOSSDAV 2022), Athlone, Ireland, June 14-17, 2022. CCF-B.",
+  "Lin Wang, Lehao Lin, Xiao Wu, Rongman Hong. Seshat: Decentralizing Oral History Text Analysis. In the 17th International Conference on Mobility, Sensing and Networking (MSN 2021), Exeter, United Kingdom, December 13-15, 2021. CCF-C.",
+]);
+
+const add_style = (input) => {};
+</script>
 
 <style scoped>
 .me {

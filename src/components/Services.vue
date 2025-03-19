@@ -32,43 +32,39 @@
     </el-row>
     <el-row>
       <el-text size="default"
-        >IEEE International Conference on Multimedia & Expo 2025 (ICME
-        2025)</el-text
+        >IEEE International Conference on Multimedia & Expo (ICME) 2025</el-text
       >
     </el-row>
     <el-row>
       <el-text size="default"
-        >ACM on Web Conference 2025 (TheWebConf/WWW 2025)</el-text
+        >ACM on Web Conference (TheWebConf/WWW) 2025</el-text
       >
     </el-row>
     <el-row>
       <el-text size="default"
         >ACM International Workshop on Network and Operating System Support for
-        Digital Audio and Video 2022, 2023, 2024, 2025 (NOSSDAV 2022, 2023,
-        2024, 2025)</el-text
+        Digital Audio and Video (NOSSDAV) 2022, 2023, 2024, 2025</el-text
       >
     </el-row>
     <el-row>
       <el-text size="default"
-        >ACM International Conference on Multimedia 2022, 2024 (ACM MM 2022,
-        2024)
+        >ACM International Conference on Multimedia (ACM MM) 2022, 2024
       </el-text>
     </el-row>
     <el-row>
       <el-text size="default"
-        >ACM Conference on Human Factors in Computing Systems 2024, 2025 (CHI
-        2024, 2025)
+        >ACM Conference on Human Factors in Computing Systems (CHI) 2024, 2025
       </el-text>
     </el-row>
     <el-row>
       <el-text size="default"
-        >ACM International Symposium of Chinese CHI 2023 (CHCHI 2023)
+        >ACM International Symposium of Chinese CHI (CHCHI) 2023
       </el-text>
     </el-row>
     <el-row>
       <el-text size="default"
         >ACM International Symposium on Blockchain and Secure Critical
-        Infrastructure 2023 (BSCI 2023)
+        Infrastructure (BSCI) 2023
       </el-text>
     </el-row>
   </el-card>
