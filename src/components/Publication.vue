@@ -16,13 +16,14 @@
     <br />
     <div>(* Equal Contribution, † Corresponding Author)</div>
 
-    <br />
+    <!-- <br />
     <h3>2025</h3>
     <div>
       <CCFB />
       [10] <b><u>Lehao Lin</u></b
       >, Hong Kang, Yuqi Shi, Haihan Duan, Abdulmotaleb El Saddik, and Wei Cai†.
-      <i
+
+      <i style="color: #0095d9"
         >ASimp: Automatic High-Poly 3D Mesh Simplification for Preprocessing
         Based on QoE</i
       >. IEEE International Conference on Multimedia & Expo (ICME 2025), Nantes,
@@ -132,18 +133,117 @@
       <i>Seshat: Decentralizing Oral History Text Analysis</i>. In the 17th
       International Conference on Mobility, Sensing and Networking (MSN 2021),
       Exeter, United Kingdom, December 13-15, 2021. CCF-C.
+    </div> -->
+
+    <!-- <div v-if="extract_info(pubs).ccfrank === 'CCF-C'">
+      <CCFC /> <span v-html="extract_info(pubs).res"></span>
+    </div> -->
+
+    <!-- <h3>2021</h3>
+    <div>
+      <CCFC />
+      [1] Lin Wang, <b><u>Lehao Lin</u></b
+      >, Xiao Wu, Rongman Hong†.
+      <i>Seshat: Decentralizing Oral History Text Analysis</i>. In the 17th
+      International Conference on Mobility, Sensing and Networking (MSN 2021),
+      Exeter, United Kingdom, December 13-15, 2021. CCF-C.
+    </div> -->
+
+    <br />
+    <div v-for="year in Object.keys(final_pub).reverse()">
+      <h3>{{ year }}</h3>
+      <div v-for="pub in final_pub[year]">
+        <NONCCF v-if="pub.ccfrank === 'Non-CCF'" />
+        <CCFA v-if="pub.ccfrank === 'CCF-A'" />
+        <CCFB v-if="pub.ccfrank === 'CCF-B'" />
+        <CCFC v-if="pub.ccfrank === 'CCF-C'" />
+        <span v-html="pub.res"></span>
+        <br />
+        <br />
+      </div>
     </div>
   </el-card>
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 import CCFA from "@/components/CCFs/CCFA.vue";
 import CCFB from "@/components/CCFs/CCFB.vue";
 import CCFC from "@/components/CCFs/CCFC.vue";
 import NONCCF from "@/components/CCFs/NONCCF.vue";
 
-const papers = ref({});
+import pubs from "@/components/pubs.txt?raw";
+
+let pub_list_ref = ref([]);
+let final_pub = ref({});
+
+onMounted(() => {
+  // console.log(pubs);
+  let pub_list = pubs.split("\n");
+  // console.log(pub_list);
+  pub_list_ref.value = pub_list.map((i, index) =>
+    extract_info(i, index, pub_list.length)
+  );
+
+  console.log(pub_list_ref.value);
+
+  for (let pub of pub_list_ref.value) {
+    if (!Object.keys(final_pub.value).includes(pub.year)) {
+      final_pub.value[pub.year] = [];
+    }
+    final_pub.value[pub.year].push(pub);
+  }
+  console.log("final", final_pub.value);
+  // extract_info(pubs);
+});
+
+function addAroundSubstring(
+  originalString,
+  substringToFind,
+  leftadd,
+  rightadd
+) {
+  const index = originalString.indexOf(substringToFind);
+
+  if (index === -1) {
+    return originalString; // Substring not found
+  }
+
+  const left = originalString.substring(0, index);
+  const middle = leftadd + substringToFind + rightadd;
+  const right = originalString.substring(index + substringToFind.length);
+
+  return left + middle + right;
+}
+
+const extract_info = (paper_str, index, length) => {
+  console.log(index, "index");
+  index = length - index;
+  let res = "";
+  res = addAroundSubstring(paper_str, `Lehao Lin`, `<b><u>`, `</u></b>`);
+  res = addAroundSubstring(
+    res,
+    paper_str.split(".")[1],
+    `<i style="color: #0095d9">`,
+    `</i>`
+  );
+  res = ` [${index}] ` + res;
+  let year = res.split(".").at(-3).split(",").at(-1).replaceAll(" ", "");
+  // console.log(year);
+
+  let ccfrank = "";
+  // if (
+  //   !res.includes("CCF-A") &
+  //   !res.includes("CCF-B") &
+  //   !res.includes("CCF-C")
+  // ) {
+  //   ccfrank = "Non-CCF";
+  // }
+  ccfrank = res.split(".").at(-2).replaceAll(" ", "");
+  // console.log(ccfrank);
+
+  return { res, year, ccfrank };
+};
 
 const add_style = (input) => {};
 </script>
