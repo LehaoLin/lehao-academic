@@ -4,11 +4,12 @@
   <el-card>
     <h3>
       Details see
-      <el-link
+      <a
         href="https://scholar.google.com/citations?user=6R_CMZ4AAAAJ&hl=en"
-        size="default"
+        size="large"
         target="_blank"
-        >Google Scholar</el-link
+        style="color: #008899"
+        >Google Scholar</a
       >
     </h3>
 
@@ -138,10 +139,7 @@
 <script setup>
 import { ref } from "vue";
 
-const bibs = ref([
-  "Haihan Duan, Junhua Liao, Lehao Lin, Wei Cai. FLAD: A Human-centered Video Content Flaw Detection System for Meeting Recordings. In the 32nd Workshop on Network and Operating System Support for Digital Audio and Video (NOSSDAV 2022), Athlone, Ireland, June 14-17, 2022. CCF-B.",
-  "Lin Wang, Lehao Lin, Xiao Wu, Rongman Hong. Seshat: Decentralizing Oral History Text Analysis. In the 17th International Conference on Mobility, Sensing and Networking (MSN 2021), Exeter, United Kingdom, December 13-15, 2021. CCF-C.",
-]);
+const papers = ref({});
 
 const add_style = (input) => {};
 </script>
