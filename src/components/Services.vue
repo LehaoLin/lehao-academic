@@ -2,9 +2,8 @@
   <h1>Services</h1>
   <el-card>
     <el-row>
-      <el-text size="large">Reviewer:</el-text>
+      <h3 size="large">Reviewer:</h3>
     </el-row>
-    <br />
 
     <el-row>
       <el-text size="large">Academic Journal and Magazine:</el-text>

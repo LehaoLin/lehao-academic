@@ -19,7 +19,7 @@
     <br />
     <h3>2025</h3>
     <div>
-      <el-tag type="warning" effect="dark">CCF-B</el-tag>
+      <CCFB />
       [10] <b><u>Lehao Lin</u></b
       >, Hong Kang, Yuqi Shi, Haihan Duan, Abdulmotaleb El Saddik, and Wei Cai†.
       <i
@@ -30,7 +30,7 @@
     </div>
     <br />
     <div>
-      <el-tag type="warning" effect="dark">CCF-B</el-tag>
+      <CCFB />
       [9] Hao Wu, Maha Abdallah, Yuanfang Chi, <b><u>Lehao Lin</u></b
       >, and Wei Cai†.
       <i>Web3 Multimedia Applications: Under the Impact of Decentralization</i>.
@@ -39,7 +39,7 @@
     </div>
     <br />
     <div>
-      <el-tag type="danger" effect="dark">CCF-A</el-tag>
+      <CCFA />
       [8] Hao Wu, <b><u>Lehao Lin</u></b
       >, Maha Abdallah, and Wei Cai†.
       <i>Rethinking Participatory Art under Decentralization in Web</i>. In The
@@ -49,7 +49,7 @@
     </div>
     <br />
     <div>
-      <el-tag type="danger" effect="dark">CCF-A</el-tag>
+      <CCFA />
       [7] Ke Wang*, <b><u>Lehao Lin</u></b
       >*, Maha Abdallah, Wei Cai†.
       <i
@@ -62,7 +62,7 @@
     <br />
     <h3>2024</h3>
     <div>
-      <el-tag type="danger" effect="dark">CCF-A</el-tag>
+      <CCFA />
       [6] <b><u>Lehao Lin</u></b
       >*, Hong Kang*, Xinyao Sun, Wei Cai†.
       <i
@@ -73,7 +73,7 @@
     </div>
     <br />
     <div>
-      <el-tag type="danger" effect="dark">CCF-A</el-tag>
+      <CCFA />
       [5] Hong Kang, Minghao Li, <b><u>Lehao Lin</u></b
       >, Sizheng Fan, Wei Cai†.
       <i
@@ -84,7 +84,7 @@
     </div>
     <br />
     <div>
-      <el-tag type="warning" effect="dark">CCF-B</el-tag>
+      <CCFB />
       [4] Haihan Duan, Junhua Liao,
       <b><u>Lehao Lin</u></b
       >, Abdulumotaleb El Saddik, Wei Cai†.
@@ -98,7 +98,7 @@
     <br />
     <h3>2023</h3>
     <div>
-      <el-tag type="info" effect="dark">Non-CCF</el-tag>
+      <NONCCF />
       [3] <b><u>Lehao Lin</u></b
       >, Haihan Duan, Wei Cai†.
       <i
@@ -111,7 +111,7 @@
     <br />
     <h3>2022</h3>
     <div>
-      <el-tag type="warning" effect="dark">CCF-B</el-tag>
+      <CCFB />
       [2] Haihan Duan, Junhua Liao,
       <b><u>Lehao Lin</u></b
       >, Wei Cai†.
@@ -126,7 +126,7 @@
     <br />
     <h3>2021</h3>
     <div>
-      <el-tag type="success" effect="dark">CCF-C</el-tag>
+      <CCFC />
       [1] Lin Wang, <b><u>Lehao Lin</u></b
       >, Xiao Wu, Rongman Hong†.
       <i>Seshat: Decentralizing Oral History Text Analysis</i>. In the 17th
@@ -138,6 +138,10 @@
 
 <script setup>
 import { ref } from "vue";
+import CCFA from "@/components/CCFs/CCFA.vue";
+import CCFB from "@/components/CCFs/CCFB.vue";
+import CCFC from "@/components/CCFs/CCFC.vue";
+import NONCCF from "@/components/CCFs/NONCCF.vue";
 
 const papers = ref({});
 
