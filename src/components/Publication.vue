@@ -24,7 +24,8 @@
       <i
         >ASimp: Automatic High-Poly 3D Mesh Simplification for Preprocessing
         Based on QoE</i
-      >. IEEE International Conference on Multimedia & Expo (ICME), 2025. CCF-B.
+      >. IEEE International Conference on Multimedia & Expo (ICME 2025), Nantes,
+      France, June 30-July 4, 2025. CCF-B.
     </div>
     <br />
     <div>
