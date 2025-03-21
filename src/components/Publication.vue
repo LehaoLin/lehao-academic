@@ -2,7 +2,7 @@
   <h1>Publication</h1>
 
   <el-card>
-    <div>
+    <h3>
       Details see
       <el-link
         href="https://scholar.google.com/citations?user=6R_CMZ4AAAAJ&hl=en"
@@ -10,7 +10,7 @@
         target="_blank"
         >Google Scholar</el-link
       >
-    </div>
+    </h3>
 
     <br />
     <div>(* Equal Contribution, † Corresponding Author)</div>
