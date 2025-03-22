@@ -13,7 +13,7 @@
       >
     </h3>
 
-    <div id="main" :style="{ width: '50vw', height: '25vh' }"></div>
+    <div id="main" :style="{ width: '100%', height: '25vh' }"></div>
 
     <br />
     <div>(* Equal Contribution, † Corresponding Author)</div>
