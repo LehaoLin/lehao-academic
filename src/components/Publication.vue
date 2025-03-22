@@ -157,7 +157,13 @@
         <CCFA v-if="pub.ccfrank === 'CCF-A'" />
         <CCFB v-if="pub.ccfrank === 'CCF-B'" />
         <CCFC v-if="pub.ccfrank === 'CCF-C'" />
-        <span v-html="pub.res"></span>
+        <span v-html="pub.res"></span>&nbsp;<a
+          v-if="pub.link !== ''"
+          :href="pub.link"
+          style="color: #0095d9"
+          target="_blank"
+          >[link]</a
+        >
         <br />
         <br />
       </div>
@@ -181,9 +187,19 @@ onMounted(() => {
   // console.log(pubs);
   let pub_list = pubs.split("\n");
   // console.log(pub_list);
-  pub_list_ref.value = pub_list.map((i, index) =>
-    extract_info(i, index, pub_list.length)
-  );
+  // pub_list_ref.value = pub_list.map((i, index) =>
+  //   extract_info(i, index, pub_list.length)
+  // );
+  let index = 0;
+  for (let [row_index, pub] of pub_list.entries()) {
+    if (pub.indexOf("link:") !== 0) {
+      console.log(row_index);
+      pub_list_ref.value.push(
+        extract_info(pub, index, pub_list.length, pub_list[row_index + 1])
+      );
+      index += 1;
+    }
+  }
 
   console.log(pub_list_ref.value);
 
@@ -216,9 +232,12 @@ function addAroundSubstring(
   return left + middle + right;
 }
 
-const extract_info = (paper_str, index, length) => {
-  console.log(index, "index");
-  index = length - index;
+const extract_info = (paper_str, index, length, link) => {
+  link = link.replaceAll("link: ", "").replaceAll(" ", "");
+  if (link === "") {
+    link = "";
+  }
+  index = length / 2 - index;
   let res = "";
   res = addAroundSubstring(paper_str, `Lehao Lin`, `<b><u>`, `</u></b>`);
   res = addAroundSubstring(
@@ -242,7 +261,7 @@ const extract_info = (paper_str, index, length) => {
   ccfrank = res.split(".").at(-2).replaceAll(" ", "");
   // console.log(ccfrank);
 
-  return { res, year, ccfrank };
+  return { res, year, ccfrank, link };
 };
 
 const add_style = (input) => {};

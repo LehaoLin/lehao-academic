@@ -1,10 +1,20 @@
 Lehao Lin, Hong Kang, Yuqi Shi, Haihan Duan, Abdulmotaleb El Saddik, and Wei Cai†. ASimp: Automatic High-Poly 3D Mesh Simplification for Preprocessing Based on QoE. IEEE International Conference on Multimedia & Expo (ICME 2025), Nantes, France, June 30-July 4, 2025. CCF-B.
+link: 
 Hao Wu, Maha Abdallah, Yuanfang Chi, Lehao Lin, and Wei Cai†. Web3 Multimedia Applications: Under the Impact of Decentralization. ACM Transactions on Multimedia Computing Communications and Applications (TOMM), 2025. CCF-B.
+link: 
 Hao Wu, Lehao Lin, Maha Abdallah, and Wei Cai†. Rethinking Participatory Art under Decentralization in Web. In The 2025 ACM CHI Conference on Human Factors in Computing Systems Late Breaking Work (CHI 2025 LBW), Yokohama, Japan, April 26-May 1, 2025. CCF-A.
+link: 
 Ke Wang*, Lehao Lin*, Maha Abdallah, Wei Cai†. Where is the Boundary? Understanding How People Recognize and Evaluate Generative AI-extended Videos. In the 2025 ACM CHI Conference on Human Factors in Computing Systems (CHI 2025), Yokohama, Japan, April 26-May 1, 2025. CCF-A.
+link:
 Lehao Lin*, Hong Kang*, Xinyao Sun, Wei Cai†. SemNFT: A Semantically Enhanced Decentralized Middleware for Digital Asset Immortality. In the 32nd ACM International Conference on Multimedia (MM 2024), Melbourne, Australia, October 28-November 1, 2024. CCF-A.
+link: https://dl.acm.org/doi/abs/10.1145/3664647.3681114
 Hong Kang, Minghao Li, Lehao Lin, Sizheng Fan, Wei Cai†. Bridging Incentives and Dependencies: An Iterative Combinatorial Auction Approach to Dependency-Aware Offloading in Mobile Edge Computing. IEEE Transactions on Mobile Computing (TMC), 2024. CCF-A.
+link: https://ieeexplore.ieee.org/abstract/document/10543079
 Haihan Duan, Junhua Liao, Lehao Lin, Abdulumotaleb El Saddik, Wei Cai†. Meetor: A Human-Centered Automatic Video Editing System for Meeting Recordings. ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 2024. CCF-B.
+link: https://dl.acm.org/doi/abs/10.1145/3648681
 Lehao Lin, Haihan Duan, Wei Cai†. Web3DP: A Crowdsourcing Platform for 3D models Based on Web3 Infrastructure. In the 14th Conference on ACM Multimedia Systems Open Dataset & Software Track (MMSys 2023 ODS), Vancouver, BC, Canada, June 7-10, 2023. Non-CCF.
+link: https://dl.acm.org/doi/abs/10.1145/3587819.3592549
 Haihan Duan, Junhua Liao, Lehao Lin, Wei Cai†. FLAD: A Human-centered Video Content Flaw Detection System for Meeting Recordings. In the 32nd Workshop on Network and Operating System Support for Digital Audio and Video (NOSSDAV 2022), Athlone, Ireland, June 14-17, 2022. CCF-B.
+link: https://dl.acm.org/doi/abs/10.1145/3534088.3534349
 Lin Wang, Lehao Lin, Xiao Wu, Rongman Hong†. Seshat: Decentralizing Oral History Text Analysis. In the 17th International Conference on Mobility, Sensing and Networking, Exeter, United Kingdom, December 13-15, 2021. CCF-C.
+link: https://ieeexplore.ieee.org/abstract/document/9751552/
