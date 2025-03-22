@@ -66,6 +66,10 @@ const expand = ref(false);
 
 const news = ref([
   {
+    timestamp: "2025-3-20",
+    content: "I passed my Ph.D. thesis oral defense.",
+  },
+  {
     timestamp: "2025-3",
     content: "One paper was accepted by ACM TOMM.",
   },
