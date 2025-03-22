@@ -2,7 +2,7 @@ Lehao Lin, Hong Kang, Yuqi Shi, Haihan Duan, Abdulmotaleb El Saddik, and Wei Cai
 link: 
 Hao Wu, Maha Abdallah, Yuanfang Chi, Lehao Lin, and Wei Cai†. Web3 Multimedia Applications: Under the Impact of Decentralization. ACM Transactions on Multimedia Computing Communications and Applications (TOMM), 2025. CCF-B.
 link: 
-Hao Wu, Lehao Lin, Maha Abdallah, and Wei Cai†. Rethinking Participatory Art under Decentralization in Web. In The 2025 ACM CHI Conference on Human Factors in Computing Systems Late Breaking Work (CHI 2025 LBW), Yokohama, Japan, April 26-May 1, 2025. CCF-A.
+Hao Wu, Lehao Lin, Maha Abdallah, and Wei Cai†. Rethinking Participatory Art under Decentralization in Web. In the 2025 ACM CHI Conference on Human Factors in Computing Systems Late Breaking Work (CHI 2025 LBW), Yokohama, Japan, April 26-May 1, 2025. CCF-A.
 link: 
 Ke Wang*, Lehao Lin*, Maha Abdallah, Wei Cai†. Where is the Boundary? Understanding How People Recognize and Evaluate Generative AI-extended Videos. In the 2025 ACM CHI Conference on Human Factors in Computing Systems (CHI 2025), Yokohama, Japan, April 26-May 1, 2025. CCF-A.
 link:
