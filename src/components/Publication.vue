@@ -13,6 +13,8 @@
       >
     </h3>
 
+    <div id="main" :style="{ width: '50vw', height: '25vh' }"></div>
+
     <br />
     <div>(* Equal Contribution, † Corresponding Author)</div>
 
@@ -180,6 +182,10 @@ import NONCCF from "@/components/CCFs/NONCCF.vue";
 
 import pubs from "@/components/pubs.txt?raw";
 
+import * as echarts from "echarts";
+
+let echart = echarts;
+
 let pub_list_ref = ref([]);
 let final_pub = ref({});
 
@@ -211,6 +217,95 @@ onMounted(() => {
   }
   console.log("final", final_pub.value);
   // extract_info(pubs);
+
+  var chartDom = document.getElementById("main");
+  var myChart = echarts.init(chartDom, "dark");
+  let option = null;
+  option = {
+    tooltip: {
+      trigger: "axis",
+      axisPointer: {
+        type: "shadow",
+      },
+    },
+    legend: {},
+    grid: {
+      left: "3%",
+      right: "4%",
+      bottom: "3%",
+      containLabel: true,
+    },
+    xAxis: [
+      {
+        type: "category",
+        data: Object.keys(final_pub.value),
+      },
+    ],
+    yAxis: [
+      {
+        type: "value",
+      },
+    ],
+    series: [
+      {
+        name: "Non-CCF",
+        type: "bar",
+        stack: "Ad",
+        emphasis: {
+          focus: "series",
+        },
+        data: Object.values(final_pub.value).map((i) => {
+          console.log(i, typeof i);
+          return i.filter((u) => u.ccfrank === "Non-CCF").length;
+        }),
+        color: "#909399",
+      },
+      {
+        name: "CCF-C",
+        type: "bar",
+        stack: "Ad",
+        emphasis: {
+          focus: "series",
+        },
+        data: Object.values(final_pub.value).map((i) => {
+          console.log(i, typeof i);
+          return i.filter((u) => u.ccfrank === "CCF-C").length;
+        }),
+        color: "#66c23a",
+      },
+      {
+        name: "CCF-B",
+        type: "bar",
+        stack: "Ad",
+        emphasis: {
+          focus: "series",
+        },
+        data: Object.values(final_pub.value).map((i) => {
+          console.log(i, typeof i);
+          return i.filter((u) => u.ccfrank === "CCF-B").length;
+        }),
+        color: "#e6a23c",
+      },
+      {
+        name: "CCF-A",
+        type: "bar",
+        stack: "Ad",
+        emphasis: {
+          focus: "series",
+        },
+        data: Object.values(final_pub.value).map((i) => {
+          console.log(i, typeof i);
+          return i.filter((u) => u.ccfrank === "CCF-A").length;
+        }),
+        color: "#f56d6c",
+      },
+    ],
+  };
+  option && myChart.setOption(option);
+  window.onresize = function () {
+    //自适应大小
+    myChart.resize();
+  };
 });
 
 function addAroundSubstring(
