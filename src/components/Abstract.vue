@@ -62,7 +62,7 @@
     >
     <br />
 
-    <el-row justify="center"> <el-text size="large">Links</el-text></el-row>
+    <el-row justify="center"> <el-text size="large">Contact</el-text></el-row>
     <el-row>
       <!-- <el-icon :size="25"><Message /></el-icon>&nbsp;&nbsp;<el-link
         size="default"
@@ -76,27 +76,6 @@
         >lehaolin[at]link.cuhk.edu.cn</el-link
       >
     </el-row>
-    <el-row>
-      <el-icon :size="25"><Icon icon="academicons:google-scholar" /></el-icon
-      >&nbsp;&nbsp;<el-link
-        size="default"
-        class="bio"
-        href="https://scholar.google.com/citations?user=6R_CMZ4AAAAJ&hl=en"
-        target="_blank"
-        >Lehao Lin</el-link
-      >
-    </el-row>
-    <el-row>
-      <el-icon :size="25"><Icon icon="ant-design:github-filled" /></el-icon
-      >&nbsp;&nbsp;<el-link
-        size="default"
-        class="bio"
-        href="https://github.com/LehaoLin"
-        target="_blank"
-        >LehaoLin</el-link
-      >
-    </el-row>
-
     <br />
 
     <el-row justify="center">
@@ -122,6 +101,29 @@
       <el-icon :size="25"><Icon icon="eos-icons:neural-network" /></el-icon
       ><el-link class="bio" :underline="false"
         >&nbsp;&nbsp;Deep Learning</el-link
+      >
+    </el-row>
+
+    <br />
+    <el-row justify="center"> <el-text size="large">Links</el-text></el-row>
+    <el-row>
+      <el-icon :size="25"><Icon icon="academicons:google-scholar" /></el-icon
+      >&nbsp;&nbsp;<el-link
+        size="default"
+        class="bio"
+        href="https://scholar.google.com/citations?user=6R_CMZ4AAAAJ&hl=en"
+        target="_blank"
+        >Lehao Lin</el-link
+      >
+    </el-row>
+    <el-row>
+      <el-icon :size="25"><Icon icon="ant-design:github-filled" /></el-icon
+      >&nbsp;&nbsp;<el-link
+        size="default"
+        class="bio"
+        href="https://github.com/LehaoLin"
+        target="_blank"
+        >LehaoLin</el-link
       >
     </el-row>
 
