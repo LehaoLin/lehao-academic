@@ -6,8 +6,8 @@
       <el-card>
         <el-row>
           <el-text size="large"
-            >Teaching Assistant for ECE4300: System Design in Human-Computer
-            Interaction</el-text
+            >Leading Teaching Assistant for ECE4300: System Design in
+            Human-Computer Interaction</el-text
           >
         </el-row>
         <el-row>
@@ -29,7 +29,7 @@
       <el-card>
         <el-row>
           <el-text size="large"
-            >Teaching Assistant for ECE3200: Video Games Design and
+            >Leading Teaching Assistant for ECE3200: Video Games Design and
             Development</el-text
           >
         </el-row>
