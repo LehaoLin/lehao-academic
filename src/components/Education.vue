@@ -6,7 +6,7 @@
         <el-row>
           <el-col :span="18">
             <h3>Ph.D. Student in Computer and Information Engineering</h3>
-            <h3>2021 - Present</h3>
+            <h3>2021 - 2025</h3>
             <h3>The Chinese University of Hong Kong, Shenzhen, China</h3>
             <h3>
               Supervisor:
