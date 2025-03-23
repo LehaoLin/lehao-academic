@@ -248,7 +248,7 @@ onMounted(() => {
     ],
     series: [
       {
-        name: "Non-CCF",
+        name: "CCF-A",
         type: "bar",
         stack: "Ad",
         emphasis: {
@@ -256,22 +256,9 @@ onMounted(() => {
         },
         data: Object.values(final_pub.value).map((i) => {
           console.log(i, typeof i);
-          return i.filter((u) => u.ccfrank === "Non-CCF").length;
+          return i.filter((u) => u.ccfrank === "CCF-A").length;
         }),
-        color: "#909399",
-      },
-      {
-        name: "CCF-C",
-        type: "bar",
-        stack: "Ad",
-        emphasis: {
-          focus: "series",
-        },
-        data: Object.values(final_pub.value).map((i) => {
-          console.log(i, typeof i);
-          return i.filter((u) => u.ccfrank === "CCF-C").length;
-        }),
-        color: "#66c23a",
+        color: "#f56d6c",
       },
       {
         name: "CCF-B",
@@ -287,7 +274,7 @@ onMounted(() => {
         color: "#e6a23c",
       },
       {
-        name: "CCF-A",
+        name: "CCF-C",
         type: "bar",
         stack: "Ad",
         emphasis: {
@@ -295,9 +282,22 @@ onMounted(() => {
         },
         data: Object.values(final_pub.value).map((i) => {
           console.log(i, typeof i);
-          return i.filter((u) => u.ccfrank === "CCF-A").length;
+          return i.filter((u) => u.ccfrank === "CCF-C").length;
         }),
-        color: "#f56d6c",
+        color: "#66c23a",
+      },
+      {
+        name: "Non-CCF",
+        type: "bar",
+        stack: "Ad",
+        emphasis: {
+          focus: "series",
+        },
+        data: Object.values(final_pub.value).map((i) => {
+          console.log(i, typeof i);
+          return i.filter((u) => u.ccfrank === "Non-CCF").length;
+        }),
+        color: "#909399",
       },
     ],
   };
