@@ -71,7 +71,7 @@ const news = ref([
   },
   {
     timestamp: "2025-3",
-    content: "One paper was accepted by ACM TOMM.",
+    content: "One paper was accepted by ICME'25.",
   },
   {
     timestamp: "2025-1",
