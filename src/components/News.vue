@@ -1,5 +1,5 @@
 <template>
-  <h1>News</h1>
+  <h1>💐 News</h1>
 
   <!-- <el-timeline>
     <el-timeline-item center timestamp="2025-2" placement="top">

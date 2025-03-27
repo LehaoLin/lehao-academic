@@ -1,5 +1,5 @@
 <template>
-  <h1>Education</h1>
+  <h1>🏫 Education</h1>
   <el-timeline>
     <el-timeline-item :timestamp="now_date" placement="top">
       <el-card>

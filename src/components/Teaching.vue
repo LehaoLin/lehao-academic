@@ -1,5 +1,5 @@
 <template>
-  <h1>Teaching</h1>
+  <h1>🧑🏻‍🏫 Teaching</h1>
 
   <el-timeline>
     <el-timeline-item timestamp="2025-5" placement="top">

@@ -1,5 +1,5 @@
 <template>
-  <h1>Awards</h1>
+  <h1>🏅 Awards</h1>
   <el-timeline>
     <el-timeline-item center timestamp="2025" placement="top"
       >Creativity and Innovation Award, University Honors.

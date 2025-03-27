@@ -1,5 +1,5 @@
 <template>
-  <h1>Prefered Tools</h1>
+  <h1>🔨 Prefered Tools</h1>
   <el-card>
     <el-row justify="start">
       <el-col :span="4">Writing</el-col>

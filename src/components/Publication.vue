@@ -1,5 +1,5 @@
 <template>
-  <h1>Publication</h1>
+  <h1>📚 Publication</h1>
 
   <el-card>
     <h3>
