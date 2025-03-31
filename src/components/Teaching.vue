@@ -6,7 +6,7 @@
       <el-card>
         <el-row>
           <el-text size="large"
-            >Leading Teaching Assistant for ECE4300: System Design in
+            ><b>Leading Teaching Assistant</b> for ECE4300: System Design in
             Human-Computer Interaction</el-text
           >
         </el-row>
@@ -29,8 +29,8 @@
       <el-card>
         <el-row>
           <el-text size="large"
-            >Leading Teaching Assistant for ECE3200: Video Games Design and
-            Development</el-text
+            ><b>Leading Teaching Assistant</b> for ECE3200: Video Games Design
+            and Development</el-text
           >
         </el-row>
         <el-row>
@@ -52,7 +52,7 @@
       <el-card>
         <el-row>
           <el-text size="large"
-            >Teaching Assistant for MAT2040: Linear Algebra</el-text
+            ><b>Teaching Assistant</b> for MAT2040: Linear Algebra</el-text
           >
         </el-row>
         <el-row>
@@ -77,7 +77,7 @@
       <el-card>
         <el-row>
           <el-text size="large"
-            >Teaching Assistant for MAT2040: Linear Algebra</el-text
+            ><b>Teaching Assistant</b> for MAT2040: Linear Algebra</el-text
           >
         </el-row>
         <el-row>
@@ -102,7 +102,7 @@
       <el-card>
         <el-row>
           <el-text size="large"
-            >Teaching Assistant for ECE3200: Video Games Design and
+            ><b>Teaching Assistant</b> for ECE3200: Video Games Design and
             Development</el-text
           >
         </el-row>
@@ -125,7 +125,7 @@
       <el-card>
         <el-row>
           <el-text size="large"
-            >Teaching Assistant for CSC1002: Computational Laboratory
+            ><b>Teaching Assistant</b> for CSC1002: Computational Laboratory
             (Python)</el-text
           >
         </el-row>
@@ -150,7 +150,7 @@
       <el-card>
         <el-row>
           <el-text size="large"
-            >Teaching Assistant for MAT2040: Linear Algebra</el-text
+            ><b>Teaching Assistant</b> for MAT2040: Linear Algebra</el-text
           >
         </el-row>
         <el-row>
