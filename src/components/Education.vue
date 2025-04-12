@@ -16,6 +16,13 @@
                 >Prof. Wei Cai</el-link
               >
             </h3>
+            <h3>
+              Thesis:
+              <i
+                >Sustainable Digital Ecosystems: Advancing Resilience in the
+                Web3 Metaverse</i
+              >
+            </h3>
           </el-col>
           <el-col :span="6">
             <el-image

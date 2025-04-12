@@ -85,31 +85,54 @@
     >
     <el-row class="rotate">
       <el-icon :size="25"><Icon icon="mdi:multimedia" /></el-icon
-      ><el-link class="bio" :underline="false">&nbsp;&nbsp;Multimedia</el-link>
+      ><el-link class="bio" :underline="false">&nbsp;Multimedia</el-link>
     </el-row>
     <el-row class="rotate">
       <el-icon :size="25"><Icon icon="eos-icons:blockchain" /></el-icon
-      ><el-link class="bio" :underline="false"
-        >&nbsp;&nbsp;Blockchain/Web3</el-link
-      >
+      ><el-link class="bio" :underline="false">&nbsp;Blockchain/Web3</el-link>
     </el-row>
     <el-row class="rotate">
       <el-icon :size="25"><Icon icon="grommet-icons:system" /></el-icon
       ><el-link class="bio" :underline="false"
-        >&nbsp;&nbsp;Decentralized Systems</el-link
+        >&nbsp;Decentralized Systems</el-link
       >
     </el-row>
     <el-row class="rotate">
       <el-icon :size="25"><Icon icon="eos-icons:neural-network" /></el-icon
+      ><el-link class="bio" :underline="false">&nbsp;Deep Learning</el-link>
+    </el-row>
+    <el-row class="rotate">
+      <el-icon :size="25"
+        ><Icon icon="material-symbols-light:person-raised-hand" /></el-icon
       ><el-link class="bio" :underline="false"
-        >&nbsp;&nbsp;Deep Learning</el-link
+        >&nbsp;Human-centered Computing</el-link
       >
     </el-row>
 
     <br />
     <el-row justify="center"> <el-text size="large">Links</el-text></el-row>
-    <el-row>
-      <el-icon :size="25"><Icon icon="academicons:google-scholar" /></el-icon
+    <el-row justify="center">
+      <el-col :span="12"
+        ><el-icon :size="25"><Icon icon="academicons:google-scholar" /></el-icon
+        >&nbsp;<el-link
+          size="default"
+          class="bio"
+          href="https://scholar.google.com/citations?user=6R_CMZ4AAAAJ&hl=en"
+          target="_blank"
+          >Lehao Lin</el-link
+        ></el-col
+      ><el-col :span="12"
+        ><el-icon :size="25"><Icon icon="ant-design:github-filled" /></el-icon
+        >&nbsp;<el-link
+          size="default"
+          class="bio"
+          href="https://github.com/LehaoLin"
+          target="_blank"
+          >LehaoLin</el-link
+        ></el-col
+      >
+    </el-row>
+    <!-- <el-icon :size="25"><Icon icon="academicons:google-scholar" /></el-icon
       >&nbsp;&nbsp;<el-link
         size="default"
         class="bio"
@@ -127,7 +150,7 @@
         target="_blank"
         >LehaoLin</el-link
       >
-    </el-row>
+    </el-row> -->
 
     <br />
     <el-row justify="center">
