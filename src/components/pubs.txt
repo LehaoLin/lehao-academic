@@ -16,5 +16,5 @@ Lehao Lin, Haihan Duan, Wei Cai†. Web3DP: A Crowdsourcing Platform for 3D mode
 link: https://dl.acm.org/doi/abs/10.1145/3587819.3592549
 Haihan Duan, Junhua Liao, Lehao Lin, Wei Cai†. FLAD: A Human-centered Video Content Flaw Detection System for Meeting Recordings. In the 32nd Workshop on Network and Operating System Support for Digital Audio and Video (NOSSDAV 2022), Athlone, Ireland, June 14-17, 2022. CCF-B.
 link: https://dl.acm.org/doi/abs/10.1145/3534088.3534349
-Lin Wang, Lehao Lin, Xiao Wu, Rongman Hong†. Seshat: Decentralizing Oral History Text Analysis. In the 17th International Conference on Mobility, Sensing and Networking, Exeter, United Kingdom, December 13-15, 2021. CCF-C.
+Lin Wang, Lehao Lin, Xiao Wu, Rongman Hong†. Seshat: Decentralizing Oral History Text Analysis. In the 17th International Conference on Mobility, Sensing and Networking (MSN 2021), Exeter, United Kingdom, December 13-15, 2021. CCF-C.
 link: https://ieeexplore.ieee.org/abstract/document/9751552/
