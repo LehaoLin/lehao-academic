@@ -31,6 +31,12 @@
     </el-row>
     <el-row>
       <el-text size="default"
+        >IEEE International Conference on Advanced Visual and Signal-Based
+        Systems (AVSS) 2025</el-text
+      >
+    </el-row>
+    <el-row>
+      <el-text size="default"
         >IEEE International Conference on Multimedia & Expo (ICME) 2025</el-text
       >
     </el-row>
