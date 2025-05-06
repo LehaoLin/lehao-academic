@@ -53,7 +53,7 @@
     </el-row>
     <el-row>
       <el-text size="default"
-        >ACM International Conference on Multimedia (ACM MM) 2022, 2024
+        >ACM International Conference on Multimedia (ACM MM) 2022, 2024, 2025
       </el-text>
     </el-row>
     <el-row>
