@@ -2,6 +2,17 @@
   <h1>💁🏻‍♂️ Services</h1>
   <el-card>
     <el-row>
+      <h3 size="large">Program Committee:</h3>
+    </el-row>
+    <el-row>
+      <el-text size="default">
+        IEEE International Conference on Cloud Computing Technology and Science
+        (CloudCom) 2025, Special Session: Sustainable Blockchain Systems on
+        Distributed Clouds
+      </el-text>
+    </el-row>
+
+    <el-row>
       <h3 size="large">Reviewer:</h3>
     </el-row>
 

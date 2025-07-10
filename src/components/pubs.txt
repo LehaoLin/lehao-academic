@@ -1,11 +1,13 @@
+Lehao Lin, Baohua Fang, Ziheng Sun, Ke Wang, Hong Kang, and Wei Cai†. BS3: Bézier Slicing Middleware for 3D Mesh LOD Optimization. In the 33rd ACM International Conference on Multimedia (MM 2025), Dublin, Ireland, October 27-31, 2025. CCF-A.
+link: 
 Lehao Lin, Hong Kang, Yuqi Shi, Haihan Duan, Abdulmotaleb El Saddik, and Wei Cai†. ASimp: Automatic High-Poly 3D Mesh Simplification for Preprocessing Based on QoE. IEEE International Conference on Multimedia & Expo (ICME 2025), Nantes, France, June 30-July 4, 2025. CCF-B.
 link: 
 Hao Wu, Maha Abdallah, Yuanfang Chi, Lehao Lin, and Wei Cai†. Web3 Multimedia Applications: Under the Impact of Decentralization. ACM Transactions on Multimedia Computing Communications and Applications (TOMM), 2025. CCF-B.
-link: 
+link: https://dl.acm.org/doi/10.1145/3725851
 Hao Wu, Lehao Lin, Maha Abdallah, and Wei Cai†. Rethinking Participatory Art under Decentralization in Web. In the 2025 ACM CHI Conference on Human Factors in Computing Systems Late Breaking Work (CHI 2025 LBW), Yokohama, Japan, April 26-May 1, 2025. CCF-A.
-link: 
+link: https://dl.acm.org/doi/abs/10.1145/3706599.3720110
 Ke Wang*, Lehao Lin*, Maha Abdallah, Wei Cai†. Where is the Boundary? Understanding How People Recognize and Evaluate Generative AI-extended Videos. In the 2025 ACM CHI Conference on Human Factors in Computing Systems (CHI 2025), Yokohama, Japan, April 26-May 1, 2025. CCF-A.
-link:
+link: https://dl.acm.org/doi/abs/10.1145/3706598.3714061
 Lehao Lin*, Hong Kang*, Xinyao Sun, Wei Cai†. SemNFT: A Semantically Enhanced Decentralized Middleware for Digital Asset Immortality. In the 32nd ACM International Conference on Multimedia (MM 2024), Melbourne, Australia, October 28-November 1, 2024. CCF-A.
 link: https://dl.acm.org/doi/abs/10.1145/3664647.3681114
 Hong Kang, Minghao Li, Lehao Lin, Sizheng Fan, Wei Cai†. Bridging Incentives and Dependencies: An Iterative Combinatorial Auction Approach to Dependency-Aware Offloading in Mobile Edge Computing. IEEE Transactions on Mobile Computing (TMC), 2024. CCF-A.

@@ -5,7 +5,11 @@
   I would be very happy to assist undergraduate students who have ideas about
   doing research in how to conduct research and provide related research
   guidance. Interested undergraduate students can send me an email with their
-  introduction or CV attached.
+  introduction or CV attached.<br />
+  <p style="color: orange">
+    I am currently seeking a postdoctoral position. If you are interested in my
+    profile or my research, please don't hesitate to contact me.
+  </p>
 </template>
 
 <script setup></script>
