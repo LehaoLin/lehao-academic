@@ -1,3 +1,5 @@
+Jiaxiang Sun, Rong Zhao, Lehao Lin, Fangyuan Chi, Victor CM Leung, Wei Cai. Blockchain-Based AI-Generated Content (AIGC) Zero-Knowledge Dataset Regulation System: Introducing a Novel System. IEEE Systems, Man, and Cybernetics Magazine (SMC Magazine), 2025. Non-CCF.
+link: https://ieeexplore.ieee.org/document/11077808
 Lehao Lin, Baohua Fang, Ziheng Sun, Ke Wang, Hong Kang, and Wei Cai†. BS3: Bézier Slicing Middleware for 3D Mesh LOD Optimization. In the 33rd ACM International Conference on Multimedia (MM 2025), Dublin, Ireland, October 27-31, 2025. CCF-A.
 link: 
 Lehao Lin, Hong Kang, Yuqi Shi, Haihan Duan, Abdulmotaleb El Saddik, and Wei Cai†. ASimp: Automatic High-Poly 3D Mesh Simplification for Preprocessing Based on QoE. IEEE International Conference on Multimedia & Expo (ICME 2025), Nantes, France, June 30-July 4, 2025. CCF-B.
