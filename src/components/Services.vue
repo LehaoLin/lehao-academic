@@ -19,6 +19,7 @@
     <el-row>
       <el-text size="large">Academic Journal and Magazine:</el-text>
     </el-row>
+
     <el-row>
       <el-text size="default">
         ACM Transactions on Multimedia Computing Communications and Applications
@@ -28,6 +29,11 @@
     <el-row>
       <el-text size="default"
         >IEEE Transactions on Computational Social Systems (TCSS)
+      </el-text>
+    </el-row>
+    <el-row>
+      <el-text size="default">
+        IEEE Transactions on Mobile Computing (TMC)
       </el-text>
     </el-row>
     <el-row>
