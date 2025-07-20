@@ -188,7 +188,7 @@ import AvatarGif from "@/assets/avatar_animation.gif";
 
 import Typed from "typed.js";
 
-const recent = ref(false);
+const recent = ref(true);
 
 onMounted(() => {
   //   new Typed("#typing", {
