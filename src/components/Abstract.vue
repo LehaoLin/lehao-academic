@@ -47,9 +47,7 @@
     <el-row justify="center">
       <el-text size="default" class="bio"
         >Supervisor:
-        <el-link
-          href="https://mypage.cuhk.edu.cn/academics/caiwei/index.html"
-          target="_blank"
+        <el-link href="https://faculty.washington.edu/weicaics" target="_blank"
           >Prof. Wei Cai</el-link
         ></el-text
       ></el-row

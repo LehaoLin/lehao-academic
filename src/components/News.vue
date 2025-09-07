@@ -67,7 +67,11 @@ const expand = ref(false);
 const news = ref([
   {
     timestamp: "2025-7",
-    content: "One technical paper was accepted by ACM MM'25",
+    content: "Got Ph.D. degree.",
+  },
+  {
+    timestamp: "2025-7",
+    content: "One technical paper was accepted by ACM MM'25.",
   },
   {
     timestamp: "2025-3-20",
