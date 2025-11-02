@@ -15,6 +15,9 @@
           <div v-element-visibility="onNewsVis" id="News">
             <News />
           </div>
+          <div v-element-visibility="onInvestVis" id="Invest">
+            <Invest />
+          </div>
           <div v-element-visibility="onPubVis" id="Publication">
             <Publication />
           </div>
@@ -44,6 +47,7 @@
         <Navbar />
         <Bio />
         <News />
+        <Invest />
         <Publication />
         <Education />
         <Awards />
@@ -67,6 +71,7 @@ import News from "./components/News.vue";
 import Bio from "./components/Bio.vue";
 // import Navbar from "./components/Navbar.vue";
 import Awards from "./components/Awards.vue";
+import Invest from "./components/Invest.vue";
 
 import { watch, toRefs } from "vue";
 
@@ -96,6 +101,9 @@ const onBioVis = (state) => {
 };
 const onNewsVis = (state) => {
   store.news_visible = state;
+};
+const onInvestVis = (state) => {
+  store.invest_visible = state;
 };
 const onPubVis = (state) => {
   store.publication_visible = state;

@@ -24,6 +24,9 @@
   </el-timeline> -->
 
   <el-card>
+    <h4 style="color: gray; font-style: italic; margin-top: 0vh">
+      No news is good news. --Nicolas Bentley
+    </h4>
     <el-timeline>
       <el-scrollbar height="20vh" always>
         <el-timeline-item

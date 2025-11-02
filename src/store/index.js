@@ -4,6 +4,7 @@ export const useStore = defineStore("store", {
   state: () => ({
     bio_visible: false,
     news_visible: false,
+    invest_visible: false,
     publication_visible: false,
     education_visible: false,
     tools_visible: false,
