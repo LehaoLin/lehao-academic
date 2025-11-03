@@ -40,7 +40,7 @@ function accumulateAndFillDates(data) {
 
   const result = {};
   let currentDate = new Date(startDate);
-  let lastValue = 0; // 初始累积值为0
+  let lastValue = 1; // 初始累积值为0
 
   // 遍历所有日期（包括缺失的日期）
   while (currentDate <= endDate) {
@@ -51,11 +51,12 @@ function accumulateAndFillDates(data) {
     if (dayOfWeek !== 0 && dayOfWeek !== 6) {
       if (data.hasOwnProperty(dateStr)) {
         // 如果该日期有数据，进行累积计算
-        lastValue += parseFloat(data[dateStr]);
-        result[dateStr] = lastValue.toFixed(2);
+        lastValue *= 1 + 0.01 * parseFloat(data[dateStr]);
+        // result[dateStr] = lastValue.toFixed(2);
+        result[dateStr] = lastValue;
       } else {
         // 如果该日期没有数据，使用上一个日期的累积值
-        result[dateStr] = lastValue.toFixed(2);
+        result[dateStr] = lastValue;
       }
     }
 
@@ -125,7 +126,9 @@ onMounted(() => {
     },
     series: [
       {
-        data: Object.values(invests_dict),
+        data: Object.values(invests_dict).map((i) =>
+          (i * 100 - 100).toFixed(2)
+        ),
         type: "line",
       },
     ],
