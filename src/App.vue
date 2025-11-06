@@ -15,9 +15,9 @@
           <div v-element-visibility="onNewsVis" id="News">
             <News />
           </div>
-          <div v-element-visibility="onInvestVis" id="Invest">
+          <!-- <div v-element-visibility="onInvestVis" id="Invest">
             <Invest />
-          </div>
+          </div> -->
           <div v-element-visibility="onPubVis" id="Publication">
             <Publication />
           </div>
@@ -47,7 +47,7 @@
         <Navbar />
         <Bio />
         <News />
-        <Invest />
+        <!-- <Invest /> -->
         <Publication />
         <Education />
         <Awards />
