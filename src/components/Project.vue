@@ -29,6 +29,14 @@
           >
             {{ tag.label }}
           </el-tag>
+          <a
+            v-if="project.badgeImg"
+            :href="project.badgeLink"
+            target="_blank"
+            style="margin-left: 6px; vertical-align: middle"
+          >
+            <img :src="project.badgeImg" alt="stars" />
+          </a>
         </div>
       </template>
       <p v-html="project.description"></p>
@@ -55,6 +63,8 @@ const projects = ref([
     name: "Hermes Gate",
     icon: "ant-design:github-filled",
     link: "https://github.com/LehaoLin/hermes-gate",
+    badgeImg: "https://img.shields.io/github/stars/LehaoLin/hermes-gate",
+    badgeLink: "https://github.com/LehaoLin/hermes-gate/stargazers",
     tags: [
       { label: "Python", type: "info" },
       { label: "MIT", type: "success" },
