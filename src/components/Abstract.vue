@@ -23,6 +23,11 @@
       ></el-row
     >
     <el-row justify="center">
+      <el-text size="small" style="font-size: 16px"
+        >Postdoctoral Research Fellow</el-text
+      ></el-row
+    >
+    <el-row justify="center">
       <a href="https://vibecafe.ai/@lehao" target="_blank">
         <img src="https://vibecafe.ai/@lehao/badge" alt="VibeUsage" style="margin-top: 4px" />
       </a>
@@ -85,7 +90,7 @@
       <el-icon :size="25"><Icon icon="mdi:linkedin" /></el-icon>&nbsp;&nbsp;<el-link
         size="default"
         class="bio"
-        href="https://www.linkedin.com/in/lehao-lin-62238a13a/"
+        href="https://www.linkedin.com/in/lehaolin"
         target="_blank"
         >Lehao Lin</el-link
       >
@@ -154,7 +159,7 @@
         >&nbsp;<el-link
           size="default"
           class="bio"
-          href="https://www.linkedin.com/in/lehao-lin-62238a13a/"
+          href="https://www.linkedin.com/in/lehaolin"
           target="_blank"
           >Lehao Lin</el-link
         ></el-col
