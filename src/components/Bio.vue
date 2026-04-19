@@ -30,6 +30,11 @@
     is all that keeps someone afloat, how much further can they really go in the
     age of AI?
   </p>
+  <p style="font-style: italic; font-weight: bold; color: #f56c6c; font-size: 18px">
+    An AI Agent is not a tool, not a servant, not a subordinate, not an employee
+    — it is a <b>Stand</b> (as in JoJo's Bizarre Adventure). A manifestation of
+    one's will and fighting spirit, an extension of the self.
+  </p>
 </template>
 
 <script setup></script>

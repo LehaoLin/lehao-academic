@@ -268,9 +268,9 @@ onMounted(() => {
   animation: rotate 0.1s linear infinite;
 }
 
-.rotate:hover {
+/* .rotate:hover {
   animation: rotate 0.1s linear infinite;
-}
+} */
 
 @keyframes rotate {
   0% {
