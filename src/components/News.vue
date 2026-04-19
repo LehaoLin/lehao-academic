@@ -69,6 +69,14 @@ const expand = ref(false);
 
 const news = ref([
   {
+    timestamp: "2026-4",
+    content: "One paper was accepted by ACM NOSSDAV'26.",
+  },
+  {
+    timestamp: "2026-3",
+    content: "One paper was accepted by ACM TOIT 2026.",
+  },
+  {
     timestamp: "2025-7",
     content: "Got Ph.D. degree.",
   },

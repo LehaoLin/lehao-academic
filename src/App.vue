@@ -18,6 +18,9 @@
           <!-- <div v-element-visibility="onInvestVis" id="Invest">
             <Invest />
           </div> -->
+          <div v-element-visibility="onProjectVis" id="Project">
+            <Project />
+          </div>
           <div v-element-visibility="onPubVis" id="Publication">
             <Publication />
           </div>
@@ -48,6 +51,7 @@
         <Bio />
         <News />
         <!-- <Invest /> -->
+        <Project />
         <Publication />
         <Education />
         <Awards />
@@ -69,6 +73,7 @@ import Tools from "./components/Tools.vue";
 import Publication from "./components/Publication.vue";
 import News from "./components/News.vue";
 import Bio from "./components/Bio.vue";
+import Project from "./components/Project.vue";
 // import Navbar from "./components/Navbar.vue";
 import Awards from "./components/Awards.vue";
 import Invest from "./components/Invest.vue";
@@ -107,6 +112,9 @@ const onInvestVis = (state) => {
 };
 const onPubVis = (state) => {
   store.publication_visible = state;
+};
+const onProjectVis = (state) => {
+  store.project_visible = state;
 };
 const onEduVis = (state) => {
   store.education_visible = state;

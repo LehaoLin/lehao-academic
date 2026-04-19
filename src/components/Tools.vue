@@ -1,6 +1,39 @@
 <template>
   <h1>🔨 Prefered Tools</h1>
   <el-card>
+    <h3>🤖 AI Era</h3>
+    <el-row justify="start">
+      <el-col :span="4">Agent</el-col>
+      <el-col :span="20">
+        <el-icon :size="30"><Icon icon="game-icons:hermes-bird" /></el-icon
+        >&nbsp;<el-link
+          href="https://github.com/NousResearch/hermes-agent"
+          target="_blank"
+          style="font-size: 14px"
+          >Hermes Agent</el-link
+        >
+      </el-col>
+    </el-row>
+
+    <el-row justify="start">
+      <el-col :span="4">Coding</el-col>
+      <el-col :span="20">
+        <el-icon :size="30"><Icon icon="simple-icons:anthropic" style="color: #d97757" /></el-icon
+        >&nbsp;<span style="font-size: 14px">Claude Code</span>
+        &nbsp;&nbsp;
+        <el-icon :size="30"><Icon icon="simple-icons:opencode" style="color: #40b883" /></el-icon
+        >&nbsp;<el-link
+          href="https://github.com/anomalyco/opencode"
+          target="_blank"
+          style="font-size: 14px"
+          >OpenCode</el-link
+        >
+      </el-col>
+    </el-row>
+
+    <el-divider />
+
+    <h3>📼 Pre-AI Era</h3>
     <el-row justify="start">
       <el-col :span="4">Writing</el-col>
       <el-col :span="20"

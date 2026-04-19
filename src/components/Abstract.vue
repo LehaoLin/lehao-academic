@@ -21,7 +21,12 @@
       <el-text size="small" id="typing" style="font-size: 18px"
         ><b>Ph.D.</b></el-text
       ></el-row
-    ><el-row justify="center">
+    >
+    <el-row justify="center">
+      <a href="https://vibecafe.ai/@lehao" target="_blank">
+        <img src="https://vibecafe.ai/@lehao/badge" alt="VibeUsage" style="margin-top: 4px" />
+      </a>
+    </el-row><el-row justify="center">
       <el-text size="default" class="bio"
         >Computer and Information Engineering</el-text
       ></el-row
@@ -47,19 +52,19 @@
     <el-row justify="center">
       <el-text size="default" class="bio"
         >Supervisor:
-        <el-link href="https://faculty.washington.edu/weicaics" target="_blank"
-          >Prof. Wei Cai</el-link
+        <el-link href="https://www.zhaojunhua.org/" target="_blank"
+          >Prof. Junhua Zhao</el-link
         ></el-text
       ></el-row
     >
-    <el-row justify="center">
+    <!-- <el-row justify="center">
       <el-text size="default" class="bio"
         >Affiliated Lab:
         <el-link href="https://hcslab.cuhk.edu.cn/" target="_blank"
           >Human-Crypto Society Laboratory</el-link
         ></el-text
       ></el-row
-    >
+    > -->
     <br />
 
     <el-row justify="center"> <el-text size="large">Contact</el-text></el-row>
@@ -73,7 +78,16 @@
       <el-icon :size="25"><Message /></el-icon>&nbsp;&nbsp;<el-link
         size="default"
         class="bio"
-        >lehaolin[at]link.cuhk.edu.cn</el-link
+        >linlehao[at]cuhk.edu.cn</el-link
+      >
+    </el-row>
+    <el-row>
+      <el-icon :size="25"><Icon icon="mdi:linkedin" /></el-icon>&nbsp;&nbsp;<el-link
+        size="default"
+        class="bio"
+        href="https://www.linkedin.com/in/lehao-lin-62238a13a/"
+        target="_blank"
+        >Lehao Lin</el-link
       >
     </el-row>
     <br />
@@ -82,10 +96,14 @@
       <el-text size="large">Research Topics</el-text></el-row
     >
     <el-row class="rotate">
+      <el-icon :size="25"><Icon icon="mdi:robot-outline" /></el-icon
+      ><el-link class="bio" :underline="false">&nbsp;AI Agent</el-link>
+    </el-row>
+    <el-row class="rotate">
       <el-icon :size="25"><Icon icon="mdi:multimedia" /></el-icon
       ><el-link class="bio" :underline="false">&nbsp;Multimedia</el-link>
     </el-row>
-    <el-row class="rotate">
+    <!-- <el-row class="rotate">
       <el-icon :size="25"><Icon icon="eos-icons:blockchain" /></el-icon
       ><el-link class="bio" :underline="false">&nbsp;Blockchain/Web3</el-link>
     </el-row>
@@ -94,7 +112,7 @@
       ><el-link class="bio" :underline="false"
         >&nbsp;Decentralized Systems</el-link
       >
-    </el-row>
+    </el-row> -->
     <el-row class="rotate">
       <el-icon :size="25"><Icon icon="eos-icons:neural-network" /></el-icon
       ><el-link class="bio" :underline="false">&nbsp;Deep Learning</el-link>
@@ -127,6 +145,18 @@
           href="https://github.com/LehaoLin"
           target="_blank"
           >LehaoLin</el-link
+        ></el-col
+      >
+    </el-row>
+    <el-row justify="center">
+      <el-col :span="12"
+        ><el-icon :size="25"><Icon icon="mdi:linkedin" /></el-icon
+        >&nbsp;<el-link
+          size="default"
+          class="bio"
+          href="https://www.linkedin.com/in/lehao-lin-62238a13a/"
+          target="_blank"
+          >Lehao Lin</el-link
         ></el-col
       >
     </el-row>

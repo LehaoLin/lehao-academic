@@ -11,9 +11,9 @@
             <h3>
               Supervisor:
               <el-link
-                href="https://mypage.cuhk.edu.cn/academics/caiwei/index.html"
+                href="https://www.zhaojunhua.org/"
                 target="_blank"
-                >Prof. Wei Cai</el-link
+                >Prof. Junhua Zhao</el-link
               >
             </h3>
             <h3>
@@ -46,9 +46,9 @@
             <h3>
               Supervisor:
               <el-link
-                href="https://mypage.cuhk.edu.cn/academics/caiwei/index.html"
+                href="https://www.zhaojunhua.org/"
                 target="_blank"
-                >Prof. Wei Cai</el-link
+                >Prof. Junhua Zhao</el-link
               >
             </h3>
           </el-col>

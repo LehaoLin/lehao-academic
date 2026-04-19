@@ -1,14 +1,34 @@
 <template>
   <h1>🤖 Bio</h1>
-  I am a Ph.D. student in the Human-Crypto Society Laboratory, School of Science
-  and Engineering, CUHK(SZ).<br /><br />
-  I would be very happy to assist undergraduate students who have ideas about
-  doing research in how to conduct research and provide related research
-  guidance. Interested undergraduate students can send me an email with their
-  introduction or CV attached.<br />
+  I am currently a Postdoctoral Research Fellow at the School of Science and
+  Engineering, The Chinese University of Hong Kong, Shenzhen (CUHK-SZ).<br /><br />
+  I believe that between 2026 and 2029, the world will undergo a transformation
+  of unprecedented scale. The rocket 🚀 is about to accelerate once again —
+  please sit tight and hold on.<br />
   <p style="color: orange">
-    I am currently seeking a postdoctoral position. If you are interested in my
-    profile or my research, please don't hesitate to contact me.
+    I am passionate about the training and inference deployment of large language
+    models (LLMs), as well as the development and application of AI Agents. I am
+    actively seeking opportunities and positions in these areas. If you are
+    interested in collaboration or have relevant opportunities, please feel free
+    to reach out.
+  </p>
+  <p>
+    <b>My 7-day AI Token Usage:</b><br />
+    <a href="https://vibecafe.ai/@lehao" target="_blank">
+      <img src="https://vibecafe.ai/@lehao/badge" alt="VibeUsage" />
+    </a>
+  </p>
+  <p style="font-style: italic">
+    In this era, token consumption is directly tied to a person's productivity
+    and capability. Some ideas and creative sparks simply never surface until
+    enough tokens have been burned through. And if a leader refuses to leverage
+    agents for management, they will never keep pace with their agent-powered
+    subordinates — making them, frankly, unfit to lead. So when someone falls
+    behind in productivity, creativity, and management alike, what exactly can
+    they still contribute in this era? One has to wonder — why are they still in
+    their position? If clinging to people skills, connections, and inner circles
+    is all that keeps someone afloat, how much further can they really go in the
+    age of AI?
   </p>
 </template>
 
