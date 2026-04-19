@@ -10,14 +10,6 @@
     >
       <template #header>
         <div class="card-header">
-          <a
-            v-if="project.badgeImg"
-            :href="project.badgeLink"
-            target="_blank"
-            class="star-badge"
-          >
-            <img :src="project.badgeImg" alt="stars" />
-          </a>
           <el-icon :size="22"
             ><Icon :icon="project.icon" v-if="project.icon"
           /></el-icon>
@@ -28,6 +20,15 @@
           >
             {{ project.name }}
           </el-link>
+          <a
+            v-if="project.badgeImg"
+            :href="project.badgeLink"
+            target="_blank"
+            class="star-badge"
+            style="margin-left: 8px"
+          >
+            <img :src="project.badgeImg" alt="stars" />
+          </a>
           <el-tag
             v-for="tag in project.tags"
             :key="tag.label"
