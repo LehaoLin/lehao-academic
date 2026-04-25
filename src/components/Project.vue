@@ -81,6 +81,23 @@ const projects = ref([
       "SSH Config Alias Support",
     ],
   },
+  {
+    name: "cc-auto",
+    icon: "ant-design:github-filled",
+    link: "https://github.com/LehaoLin/cc-auto",
+    badgeImg: "https://img.shields.io/github/stars/LehaoLin/cc-auto?style=social",
+    badgeLink: "https://github.com/LehaoLin/cc-auto/stargazers",
+    tags: [
+      { label: "Python", type: "info" },
+      { label: "MIT", type: "success" },
+    ],
+    description:
+      "Claude Code auto-confirmation tool.",
+    features: [
+      "Auto-confirm Claude Code prompts",
+      "Streamline AI coding workflow",
+    ],
+  },
 ]);
 </script>
 
