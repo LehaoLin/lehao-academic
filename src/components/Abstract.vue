@@ -29,7 +29,7 @@
     >
     <el-row justify="center">
       <el-text size="small" style="font-size: 12px; color: #999"
-        >Last updated: {{ __BUILD_DATE__ }}</el-text
+        >Website last updated: {{ __BUILD_DATE__ }}</el-text
       ></el-row
     >
     <el-row justify="center">
