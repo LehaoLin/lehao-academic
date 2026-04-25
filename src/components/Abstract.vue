@@ -28,6 +28,11 @@
       ></el-row
     >
     <el-row justify="center">
+      <el-text size="small" style="font-size: 12px; color: #999"
+        >Last updated: {{ __BUILD_DATE__ }}</el-text
+      ></el-row
+    >
+    <el-row justify="center">
       <a href="https://vibecafe.ai/@lehao" target="_blank">
         <img src="https://vibecafe.ai/@lehao/badge" alt="VibeUsage" style="margin-top: 4px" />
       </a>
@@ -212,6 +217,8 @@
 </template>
 
 <script setup>
+const __BUILD_DATE__ = __BUILD_DATE__;
+
 import { ref, onMounted } from "vue";
 import Recent from "@/assets/recent.jpg";
 // import Github from "@/assets/github-filled.svg";
