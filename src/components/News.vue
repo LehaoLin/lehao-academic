@@ -70,6 +70,11 @@ const expand = ref(false);
 const news = ref([
   {
     timestamp: "2026-4",
+    content:
+      'PR merged into the official <a href="https://github.com/NousResearch/hermes-agent" target="_blank" style="color: #0095d9">Hermes Agent</a> repo — fixed WebSocket reconnection issue for QQ Bot platform adapter (<a href="https://github.com/NousResearch/hermes-agent/commit/504e7eb9e5688b4ab04e1e9a78a044c3ff00ead1" target="_blank" style="color: #0095d9">commit</a>).',
+  },
+  {
+    timestamp: "2026-4",
     content: "One paper was accepted by ACM NOSSDAV'26.",
   },
   {
