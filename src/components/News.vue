@@ -36,7 +36,7 @@
           :timestamp="item.timestamp"
           placement="top"
         >
-          {{ item.content }}
+          <span v-html="item.content" />
         </el-timeline-item>
 
         <el-timeline-item
@@ -46,7 +46,7 @@
           :timestamp="item.timestamp"
           placement="top"
         >
-          {{ item.content }}
+          <span v-html="item.content" />
         </el-timeline-item>
 
         <el-timeline-item v-if="news.length > 6">
