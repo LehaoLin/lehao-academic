@@ -98,6 +98,24 @@ const projects = ref([
       "Streamline AI coding workflow",
     ],
   },
+  {
+    name: "Hermes Agent (Contribution)",
+    icon: "ant-design:github-filled",
+    link: "https://github.com/NousResearch/hermes-agent/commit/504e7eb9e5688b4ab04e1e9a78a044c3ff00ead1",
+    tags: [
+      { label: "Python", type: "info" },
+      { label: "Upstream", type: "warning" },
+    ],
+    description:
+      'Contributed to the official <a href="https://github.com/NousResearch/hermes-agent" target="_blank" style="color: #0095d9">Hermes Agent</a> repo — fixed WebSocket reconnection handling for QQ Bot platform adapter. When connection drops, send() now polls is_connected for up to 15s before retrying.',
+    features: [
+      "WebSocket Reconnection Fix",
+      "QQ Bot Platform Adapter",
+      "Retryable Failure Handling",
+      "4 Async Tests Added",
+      "Merged Upstream",
+    ],
+  },
 ]);
 </script>
 
