@@ -60,10 +60,17 @@
         <Teaching />
       </el-main>
     </el-container>
+
+    <div class="page-footer">
+      <span>Last updated: {{ __BUILD_DATE__ }}</span>
+    </div>
   </div>
 </template>
 
 <script setup>
+// Build-time date injected by Vite
+const __BUILD_DATE__ = __BUILD_DATE__;
+
 // import HelloWorld from "./components/HelloWorld.vue";
 import Education from "./components/Education.vue";
 import Abstract from "./components/Abstract.vue";
@@ -173,5 +180,12 @@ onMounted(() => {
 .el-scrollbar {
   overflow: visible;
   position: absolute;
+}
+
+.page-footer {
+  text-align: center;
+  padding: 24px 0;
+  color: #999;
+  font-size: 12px;
 }
 </style>
